@@ -58,7 +58,7 @@
             "remove_br_tag": false,
             "tag": "p",
             "fontf": "inherit",
-            "text_cl": "#fff",
+            "text_cl": "#ffffff",
             "text_fs": 18,
             "text_lh": 0,
             "text_fw": 500,
@@ -81,7 +81,7 @@
             "remove_br_tag": false,
             "tag": "p",
             "fontf": "inherit",
-            "text_cl": "#fff",
+            "text_cl": "#ffffff",
             "text_fs": 55,
             "text_lh": 55,
             "text_fw": 600,
@@ -485,6 +485,125 @@
         "b_effect": "none",
         "image_position": "7",
         "coll_layout": "1",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,110px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,50px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ".SectionID {\nbackground-color:red\n}"
+      }
+    },
+    "line_itd6jx": {
+      "type": "line",
+      "settings": {
+        "line_style": "solid",
+        "line_width": 100,
+        "line_height": 1,
+        "line_cl": "#e6e6e6",
+        "line_pos": "t4s-text-start",
+        "layout": "t4s-container-fluid",
+        "mg": ",,50px,",
+        "mg_tb": "",
+        "mg_mb": ",,30px,",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "collections_list_manual_4RcRkn": {
+      "type": "collections-list-manual",
+      "blocks": {
+        "collection_item_6brCz6": {
+          "type": "collection_item",
+          "settings": {
+            "collection": "women",
+            "image": "shopify://shop_images/pexels-photo-9120648.jpg",
+            "collection_title": "Abstract Art",
+            "collection_link": ""
+          }
+        },
+        "collection_item_WKti8A": {
+          "type": "collection_item",
+          "settings": {
+            "collection": "accessories",
+            "image": "shopify://shop_images/pexels-anh-nguyen-517648218-29903505.jpg",
+            "collection_title": "Minimalist Art",
+            "collection_link": ""
+          }
+        },
+        "collection_item_6FTjzb": {
+          "type": "collection_item",
+          "settings": {
+            "collection": "shoes",
+            "image": "shopify://shop_images/pexels-photo-462235.jpg",
+            "collection_title": "Modern art prints",
+            "collection_link": ""
+          }
+        },
+        "collection_item_Y33KMi": {
+          "type": "collection_item",
+          "settings": {
+            "collection": "watch",
+            "image": "shopify://shop_images/pexels-photo-8251476.jpg",
+            "collection_title": "Geometric Art",
+            "collection_link": ""
+          }
+        },
+        "collection_item_AFY9ir": {
+          "type": "collection_item",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/church-window-baptism-sacrament-glass-window.jpg",
+            "collection_title": "Spiritual Art",
+            "collection_link": ""
+          }
+        },
+        "collection_item_DpXmqB": {
+          "type": "collection_item",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/pexels-photo-3246665.png",
+            "collection_title": "Animals Art",
+            "collection_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_item_6brCz6",
+        "collection_item_WKti8A",
+        "collection_item_6FTjzb",
+        "collection_item_Y33KMi",
+        "collection_item_AFY9ir",
+        "collection_item_DpXmqB"
+      ],
+      "settings": {
+        "design_heading": "5",
+        "heading_align": "t4s-text-center",
+        "top_heading": "Top Categories",
+        "icon_heading": "gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "collection_des": "5",
+        "title_cl": "#000000",
+        "title_cl_hover": "#222222",
+        "subtitle_cl": "#878787",
+        "count_cl": "#222222",
+        "border_cl": "#e5e5e5",
+        "collection_subtitle": "",
+        "open_link": "_self",
+        "space_bottom": 20,
+        "space_bottom_mb": 10,
+        "border": false,
+        "item_rd": 0,
+        "item_rd_unit": "%",
+        "img_effect": "zoom",
+        "b_effect": "none",
+        "image_position": "7",
+        "coll_layout": "3",
         "layout": "t4s-container-wrap",
         "cl_bg": "",
         "cl_bg_gradient": "",
@@ -1183,6 +1302,8 @@
   "order": [
     "1646028739ae283905",
     "164603504020ce33da",
+    "line_itd6jx",
+    "collections_list_manual_4RcRkn",
     "16460362229768af39",
     "164603686708691778",
     "16460368750174c54a",
