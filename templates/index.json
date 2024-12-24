@@ -131,6 +131,7 @@
         "aca13d02-fdca-4dd7-b455-cc71ffabb08a": {
           "type": "image_parent",
           "settings": {
+            "image": "shopify://shop_images/people-at-an-art-gallery-facing-the-work.jpg",
             "image_position": "8",
             "cl_img": "",
             "link_img1": "",
@@ -246,6 +247,7 @@
         "164602873867eb3815-4": {
           "type": "image_parent",
           "settings": {
+            "image": "shopify://shop_images/a-woman-in-an-art-gallery-ponders-a-degas-painting.jpg",
             "image_position": "8",
             "cl_img": "",
             "link_img1": "",
