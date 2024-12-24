@@ -607,6 +607,115 @@
         "layout": "t4s-container-wrap",
         "cl_bg": "",
         "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,50px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ".SectionID {\nbackground-color:red\n}"
+      }
+    },
+    "line_kUJHW6": {
+      "type": "line",
+      "settings": {
+        "line_style": "solid",
+        "line_width": 100,
+        "line_height": 1,
+        "line_cl": "#e6e6e6",
+        "line_pos": "t4s-text-start",
+        "layout": "t4s-container-fluid",
+        "mg": ",,0px,",
+        "mg_tb": "",
+        "mg_mb": ",,30px,",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "collections_list_manual_NRhUNM": {
+      "type": "collections-list-manual",
+      "blocks": {
+        "collection_item_kMXHhF": {
+          "type": "collection_item",
+          "settings": {
+            "collection": "accessories",
+            "image": "shopify://shop_images/pexels-anh-nguyen-517648218-29903505.jpg",
+            "collection_title": "Below INR 500",
+            "collection_link": ""
+          }
+        },
+        "collection_item_nGhQDe": {
+          "type": "collection_item",
+          "settings": {
+            "collection": "shoes",
+            "image": "shopify://shop_images/pexels-photo-462235.jpg",
+            "collection_title": "INR 500 to 1000",
+            "collection_link": ""
+          }
+        },
+        "collection_item_dnYkid": {
+          "type": "collection_item",
+          "settings": {
+            "collection": "watch",
+            "image": "shopify://shop_images/pexels-photo-8251476.jpg",
+            "collection_title": "INR 500 to 3000",
+            "collection_link": ""
+          }
+        },
+        "collection_item_Wm4q9x": {
+          "type": "collection_item",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/church-window-baptism-sacrament-glass-window.jpg",
+            "collection_title": "INR 3000 to 5000",
+            "collection_link": ""
+          }
+        },
+        "collection_item_6bfnkU": {
+          "type": "collection_item",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/pexels-photo-3246665.png",
+            "collection_title": "Above INR 5000",
+            "collection_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_item_kMXHhF",
+        "collection_item_nGhQDe",
+        "collection_item_dnYkid",
+        "collection_item_Wm4q9x",
+        "collection_item_6bfnkU"
+      ],
+      "settings": {
+        "design_heading": "5",
+        "heading_align": "t4s-text-center",
+        "top_heading": "Art by Price",
+        "icon_heading": "gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "collection_des": "1",
+        "title_cl": "#fff",
+        "title_cl_hover": "#222222",
+        "subtitle_cl": "#878787",
+        "count_cl": "#222222",
+        "border_cl": "#e5e5e5",
+        "collection_subtitle": "",
+        "open_link": "_self",
+        "space_bottom": 20,
+        "space_bottom_mb": 10,
+        "border": false,
+        "item_rd": 0,
+        "item_rd_unit": "%",
+        "img_effect": "zoom",
+        "b_effect": "none",
+        "image_position": "7",
+        "coll_layout": "3",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
         "mg": ",,110px,",
         "pd": "",
         "mg_tb": "",
@@ -1304,6 +1413,8 @@
     "164603504020ce33da",
     "line_itd6jx",
     "collections_list_manual_4RcRkn",
+    "line_kUJHW6",
+    "collections_list_manual_NRhUNM",
     "16460362229768af39",
     "164603686708691778",
     "16460368750174c54a",
