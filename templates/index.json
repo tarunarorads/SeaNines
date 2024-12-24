@@ -431,8 +431,8 @@
           "type": "collection_item",
           "settings": {
             "collection": "accessories",
-            "image": "shopify://shop_images/pexels-photo-9120648.jpg",
-            "collection_title": "Accessories",
+            "image": "shopify://shop_images/pexels-anh-nguyen-517648218-29903505.jpg",
+            "collection_title": "Minimalist Art",
             "collection_link": ""
           }
         },
@@ -440,7 +440,8 @@
           "type": "collection_item",
           "settings": {
             "collection": "shoes",
-            "collection_title": "Footwear",
+            "image": "shopify://shop_images/pexels-photo-462235.jpg",
+            "collection_title": "Modern art prints",
             "collection_link": ""
           }
         },
@@ -448,7 +449,8 @@
           "type": "collection_item",
           "settings": {
             "collection": "watch",
-            "collection_title": "Watches",
+            "image": "shopify://shop_images/pexels-photo-8251476.jpg",
+            "collection_title": "Geometric Art",
             "collection_link": ""
           }
         }
