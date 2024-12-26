@@ -236,7 +236,7 @@
             "type": "bl_col",
             "settings": {
               "col_heading": "Infomation",
-              "menu": "",
+              "menu": "information",
               "menu_style": "1",
               "col_border": "none",
               "col_dk": "2",
