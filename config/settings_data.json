@@ -546,10 +546,9 @@
           },
           "3944a4f5-3618-4f4b-9d13-238ddb1b72f2": {
             "type": "mega",
-            "disabled": true,
             "settings": {
-              "title": "Product",
-              "url": "shopify://collections/all",
+              "title": "Gallery",
+              "url": "#",
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
@@ -567,15 +566,14 @@
           },
           "4a281327-6e12-4cd4-af83-0ce2f502e7b8": {
             "type": "mega",
-            "disabled": true,
             "settings": {
-              "title": "Sale",
-              "url": "shopify://collections",
+              "title": "Top categories",
+              "url": "#",
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
               "cl": "#ec0101",
-              "lb": "Sale",
+              "lb": "",
               "lb_cl": "#ffa800",
               "pos_sub": "bottom",
               "wid": "cus",
