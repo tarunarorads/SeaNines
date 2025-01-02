@@ -448,7 +448,7 @@
           "announcement-bar-2"
         ],
         "settings": {
-          "show_announcement": true,
+          "show_announcement": false,
           "design": "slider",
           "effect": "1",
           "au_time": 3.5,
@@ -477,46 +477,10 @@
               "text_align": "start",
               "col": "4"
             }
-          },
-          "top-bar-1": {
-            "type": "text",
-            "settings": {
-              "text": "<p>Summer sale discount off <strong>50%</strong>! <a href=\"/collections\" title=\"All collections\">Shop Now</a></p>",
-              "adding_border": false,
-              "countdown": "2023/12/26",
-              "txt_day": "days",
-              "dayx": 0,
-              "effect": "1",
-              "au_time": 3.5,
-              "fw_bold": 400,
-              "cl_a": "#222222",
-              "cl_bold": "#ec0101",
-              "cl_a_tr": "#ffffff",
-              "cl_bold_tr": "#ec0101",
-              "hide": false,
-              "text_align": "center",
-              "col": "4"
-            }
-          },
-          "top-bar-2": {
-            "type": "cur",
-            "settings": {
-              "show_currency": true,
-              "show_language": true,
-              "use_location": true,
-              "txt_location": "Location",
-              "url_location": "shopify://blogs/lingeries/5-best-swimsuits-for-big-busts",
-              "open_link": "_self",
-              "hide": false,
-              "text_align": "end",
-              "col": "4"
-            }
           }
         },
         "block_order": [
-          "top-bar-0",
-          "top-bar-1",
-          "top-bar-2"
+          "top-bar-0"
         ],
         "settings": {
           "show_topbar": true,
@@ -542,6 +506,7 @@
         "blocks": {
           "9883384a-d19a-4abe-9a94-388d91fce9b6": {
             "type": "mega",
+            "disabled": true,
             "settings": {
               "title": "Demo",
               "url": "https://demo-kalles-4-1.myshopify.com/",
@@ -562,6 +527,7 @@
           },
           "e0be43d6-bf02-4962-a06e-4294c6d6bd53": {
             "type": "mega",
+            "disabled": true,
             "settings": {
               "title": "Shop",
               "url": "shopify://collections",
@@ -582,6 +548,7 @@
           },
           "3944a4f5-3618-4f4b-9d13-238ddb1b72f2": {
             "type": "mega",
+            "disabled": true,
             "settings": {
               "title": "Product",
               "url": "shopify://collections/all",
@@ -602,6 +569,7 @@
           },
           "4a281327-6e12-4cd4-af83-0ce2f502e7b8": {
             "type": "mega",
+            "disabled": true,
             "settings": {
               "title": "Sale",
               "url": "shopify://collections",
@@ -622,6 +590,7 @@
           },
           "334013b4-82f3-4046-8371-eaf3c3340153": {
             "type": "drop",
+            "disabled": true,
             "settings": {
               "title": "Portfolio",
               "url": "https://demo-kalles-4-1.myshopify.com/blogs/portfolio/?preview_theme_id=128644972750",
@@ -641,6 +610,7 @@
           },
           "556a85dc-041d-4d44-8c22-263ed70a8b48": {
             "type": "drop",
+            "disabled": true,
             "settings": {
               "title": "Lookbook",
               "url": "https://demo-kalles-4-1.myshopify.com",
@@ -660,6 +630,7 @@
           },
           "9a73cf8b-993e-4dbe-9f11-6e990bfb91c0": {
             "type": "mega",
+            "disabled": true,
             "settings": {
               "title": "Blog",
               "url": "https://demo-kalles-4-1.myshopify.com/blogs/fashion?preview_theme_id=",
