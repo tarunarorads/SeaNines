@@ -1020,6 +1020,7 @@
         "blocks": {
           "583a30c7-369d-4a64-a51d-ca53c1685206": {
             "type": "mega",
+            "disabled": true,
             "settings": {
               "id": 1
             }
