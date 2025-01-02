@@ -1409,6 +1409,121 @@
         "use_cus_css": false,
         "code_cus_css": ".SectionID {\nbackground-color:red\n}"
       }
+    },
+    "feature_columns_i4cLkU": {
+      "type": "feature_columns",
+      "blocks": {
+        "text_block_PhP9bW": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/church-window-baptism-sacrament-glass-window.jpg",
+            "title": "A guide to Buying art you truly love",
+            "text": "",
+            "button_label": "Read More",
+            "button_link": "shopify://pages/a-guide-to-buying-art-you-truly-love",
+            "open_link": "_self",
+            "btn_icon": false,
+            "button_style": "outline",
+            "btn_size": "medium",
+            "btn_cl": "dark",
+            "button_effect": "fade"
+          }
+        },
+        "text_block_angyGX": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/a-woman-in-an-art-gallery-ponders-a-degas-painting.jpg",
+            "title": "Art For your Unique Style",
+            "text": "",
+            "button_label": "Read More",
+            "button_link": "shopify://pages/art-for-your-unique-style",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "outline",
+            "btn_size": "medium",
+            "btn_cl": "dark",
+            "button_effect": "fade"
+          }
+        },
+        "text_block_GErKQc": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/166A.jpg",
+            "title": "Art Personality Test",
+            "text": "",
+            "button_label": "Read More",
+            "button_link": "shopify://pages/art-personality-test",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "outline",
+            "btn_size": "medium",
+            "btn_cl": "dark",
+            "button_effect": "fade"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_PhP9bW",
+        "text_block_angyGX",
+        "text_block_GErKQc"
+      ],
+      "settings": {
+        "design_heading": "2",
+        "heading_align": "t4s-text-center",
+        "top_heading": "More To Explore",
+        "icon_heading": "",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "text_align": "center",
+        "pos_text": "default",
+        "fs_title": 22,
+        "fs_text": 14,
+        "fs_title_mb": 22,
+        "fs_text_mb": 12,
+        "image_ratio": "ratio16_9",
+        "image_size": "cover",
+        "image_position": "8",
+        "img_effect": "none",
+        "b_effect": "none",
+        "layout_des": "1",
+        "space_h_item": "30",
+        "space_v_item": "30",
+        "space_h_item_mb": "10",
+        "space_v_item_mb": "10",
+        "col_dk": "3",
+        "col_tb": "2",
+        "col_mb": "1",
+        "loop": true,
+        "au_time": 0,
+        "au_hover": true,
+        "nav_btn": false,
+        "btn_vi": "hover",
+        "btn_owl": "default",
+        "btn_shape": "none",
+        "btn_cl": "dark",
+        "btn_size": "small",
+        "btn_hidden_mobile": true,
+        "nav_dot": false,
+        "dot_owl": "default",
+        "dots_cl": "dark",
+        "dots_round": true,
+        "dots_space": 10,
+        "dots_hidden_mobile": false,
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
     }
   },
   "order": [
@@ -1422,6 +1537,7 @@
     "164603686708691778",
     "16460368750174c54a",
     "1646209857bf69e76a",
+    "feature_columns_i4cLkU",
     "164620932069107a3a"
   ]
 }
