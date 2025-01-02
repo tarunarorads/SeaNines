@@ -462,10 +462,10 @@
         "fb81d2b5-38b4-4322-93fc-cd722f8758f3"
       ],
       "settings": {
-        "design_heading": "5",
+        "design_heading": "2",
         "heading_align": "t4s-text-center",
         "top_heading": "Featured Collections",
-        "icon_heading": "gem",
+        "icon_heading": "",
         "top_subheading": "",
         "tophead_mb": 30,
         "collection_des": "1",
@@ -581,9 +581,9 @@
         "collection_item_DpXmqB"
       ],
       "settings": {
-        "design_heading": "5",
+        "design_heading": "2",
         "heading_align": "t4s-text-center",
-        "top_heading": "Top Categories",
+        "top_heading": "Painting Categories",
         "icon_heading": "gem",
         "top_subheading": "",
         "tophead_mb": 30,
@@ -690,9 +690,9 @@
         "collection_item_6bfnkU"
       ],
       "settings": {
-        "design_heading": "5",
+        "design_heading": "2",
         "heading_align": "t4s-text-center",
-        "top_heading": "Art by Price",
+        "top_heading": "Shop by Price",
         "icon_heading": "gem",
         "top_subheading": "",
         "tophead_mb": 30,
@@ -941,9 +941,10 @@
     },
     "164603686708691778": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
-        "design_heading": "1",
-        "heading_align": "t4s-text-center",
+        "design_heading": "2",
+        "heading_align": "t4s-text-start",
         "top_heading": "BEST SELLER",
         "icon_heading": "gem",
         "top_subheading": "",
@@ -1015,9 +1016,9 @@
     "16460368750174c54a": {
       "type": "blog-post",
       "settings": {
-        "design_heading": "5",
+        "design_heading": "2",
         "heading_align": "t4s-text-center",
-        "top_heading": "Artist Profiles & Blogs",
+        "top_heading": "Meet Seanines Artist",
         "bt_lb": "Button label",
         "icon_heading": "gem",
         "top_subheading": "",
@@ -1267,6 +1268,7 @@
         "0051dfa6-432d-4e58-b343-7e0752f68b80",
         "ae083dc7-4338-494b-8f4b-e764a38d2a97"
       ],
+      "disabled": true,
       "settings": {
         "design_heading": "2",
         "heading_align": "t4s-text-center",
