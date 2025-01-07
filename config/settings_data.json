@@ -2286,6 +2286,13 @@
         "settings": {}
       }
     },
-    "content_for_index": []
+    "content_for_index": [],
+    "blocks": {
+      "1990815452989453926": {
+        "type": "shopify://apps/ryviu-reviews-qa/blocks/ryviu-js/807ad6ed-1a6a-4559-abea-ed062858d9da",
+        "disabled": false,
+        "settings": {}
+      }
+    }
   }
 }
