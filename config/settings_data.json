@@ -703,7 +703,7 @@
           "bgnavst": "#ffffff",
           "opnavst": 100,
           "clnavst": "#222222",
-          "clnavst_hover": "#56cfe1",
+          "clnavst_hover": "#ff6f24",
           "transparent_header": false,
           "space_transparent_header": false,
           "bgnavtr": "#000000",
