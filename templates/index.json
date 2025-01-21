@@ -398,7 +398,7 @@
         "nav_dot": true,
         "dot_owl": "default",
         "dots_position": "default",
-        "dots_cl": "dark",
+        "dots_cl": "primary",
         "dots_round": true,
         "dots_space": 10,
         "dots_hidden_mobile": false,
