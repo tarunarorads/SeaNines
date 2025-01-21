@@ -96,6 +96,7 @@
         "560f5822-3eeb-4070-a2cd-b5738881a4c1",
         "be9b8b8f-6cac-47ab-b809-a2fe640a75a7"
       ],
+      "disabled": true,
       "settings": {
         "show_top_collections": true,
         "source": "2",
