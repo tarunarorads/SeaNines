@@ -777,9 +777,9 @@
             "settings": {
               "heading": "Product desgin 01",
               "addtocart_color": "#ffffff",
-              "addtocart_color_hover": "#222222",
+              "addtocart_color_hover": "#ff6f24",
               "quickview_color": "#ffffff",
-              "quickview_color_hover": "#222222",
+              "quickview_color_hover": "#ff6f24",
               "wishlist_color": "#ffffff",
               "wishlist_color_hover": "#222222",
               "wishlist_color_active": "#e81e63",
