@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "heading": {
@@ -55,7 +64,6 @@
     },
     "sidebar": {
       "type": "sidebar-article",
-      "disabled": true,
       "blocks": {
         "caa2cee0-01b1-488d-a10e-5e74006f95f4": {
           "type": "blog_cate",
@@ -89,6 +97,7 @@
         "33e93b80-0f24-44e5-adfa-9e2b066b1473",
         "37d3ea69-b6a8-4406-8abd-ae719de8696b"
       ],
+      "disabled": true,
       "settings": {
         "enable_drawer": true,
         "space": 50,
@@ -110,13 +119,11 @@
         },
         "5908f252-0a66-4bc2-8069-a8f60d79fb18": {
           "type": "content",
-          "settings": {
-          }
+          "settings": {}
         },
         "e8da95d6-7323-4d99-a68c-16088d24fa34": {
           "type": "tags",
-          "settings": {
-          }
+          "settings": {}
         },
         "d905ad63-1b38-496e-8a7e-38751e0ad0b8": {
           "type": "socials",
@@ -136,8 +143,7 @@
         },
         "dec42554-02e5-40e5-89ff-f922277dcb34": {
           "type": "navigation",
-          "settings": {
-          }
+          "settings": {}
         },
         "0ae37c6c-16ef-447b-bbbf-31a449c30d2f": {
           "type": "related",
@@ -205,14 +211,90 @@
         "cl_bg_gradient": "",
         "mg": ",,50px,",
         "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
         "mg_mb": ",,30px,",
         "pd_mb": ""
+      }
+    },
+    "featured_collection_mPh8Uw": {
+      "type": "featured-collection",
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "Featured collection",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "head_btn_label": "View All",
+        "head_btn_url": "",
+        "head_btn_icon": false,
+        "head_btn_style": "default",
+        "head_btn_size": "medium",
+        "head_btn_cl": "dark",
+        "head_btn_effect": "default",
+        "head_btn_hidden_mb": false,
+        "collection": "bandana-kumari",
+        "product_des": "1",
+        "show_vendor": false,
+        "use_cdt": false,
+        "image_ratio": "rationt",
+        "image_size": "cover",
+        "image_position": "8",
+        "content_align": "default",
+        "limit": 8,
+        "col_dk": "4",
+        "col_tb": "2",
+        "col_mb": "2",
+        "space_h_item": "30",
+        "space_v_item": "30",
+        "space_h_item_mb": "10",
+        "space_v_item_mb": "10",
+        "layout_des": "2",
+        "loop": true,
+        "au_time": 0,
+        "au_hover": true,
+        "center_slide": false,
+        "nav_btn": false,
+        "btns_pos": "default",
+        "btn_vi": "hover",
+        "btn_owl": "default",
+        "btn_shape": "none",
+        "btn_cl": "dark",
+        "btn_size": "small",
+        "btn_hidden_mobile": true,
+        "nav_dot": false,
+        "dot_owl": "default",
+        "dots_cl": "dark",
+        "dots_round": true,
+        "dots_space": 10,
+        "dots_hidden_mobile": false,
+        "use_pagination": "none",
+        "enable_bar_lm": true,
+        "btn_icon": false,
+        "button_style": "default",
+        "btns_size": "large",
+        "btns_cl": "dark",
+        "button_effect": "default",
+        "btn_pos": "t4s-text-center",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
       }
     }
   },
   "order": [
     "heading",
     "sidebar",
-    "main"
+    "main",
+    "featured_collection_mPh8Uw"
   ]
 }
