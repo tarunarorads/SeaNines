@@ -544,7 +544,7 @@
               "cl": "#ec0101",
               "lb": "",
               "lb_cl": "#00badb",
-              "pos_sub": "bottom-start",
+              "pos_sub": "bottom",
               "wid": "cus",
               "cus_wid": 1050,
               "id": 1,
@@ -1061,8 +1061,8 @@
               "open_link": "_self",
               "menu": "style",
               "item_fsize": 13,
-              "sp_bettewn_item": 20,
-              "col": "3"
+              "sp_bettewn_item": 5,
+              "col": "4"
             }
           },
           "2ceac397-4b2b-4740-a477-707dd2680e02": {
@@ -1073,8 +1073,8 @@
               "open_link": "_self",
               "menu": "subject",
               "item_fsize": 13,
-              "sp_bettewn_item": 20,
-              "col": "3"
+              "sp_bettewn_item": 5,
+              "col": "4"
             }
           },
           "1f90cea5-04fb-4ef3-822b-5f987845e5c4": {
@@ -1085,8 +1085,8 @@
               "open_link": "_self",
               "menu": "medium",
               "item_fsize": 13,
-              "sp_bettewn_item": 20,
-              "col": "3"
+              "sp_bettewn_item": 5,
+              "col": "4"
             }
           },
           "6122e966-0272-4c46-a1a0-051bdc2ae08c": {
