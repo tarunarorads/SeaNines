@@ -1056,7 +1056,7 @@
           "3abb98a1-837d-46af-b195-f5c43e7c88ee": {
             "type": "link",
             "settings": {
-              "tt_hd": "HOME PAGES",
+              "tt_hd": "Style",
               "url": "",
               "open_link": "_self",
               "menu": "style",
@@ -1067,9 +1067,8 @@
           },
           "2ceac397-4b2b-4740-a477-707dd2680e02": {
             "type": "link",
-            "disabled": true,
             "settings": {
-              "tt_hd": "HOME PAGES",
+              "tt_hd": "Subject",
               "url": "",
               "open_link": "_self",
               "menu": "",
@@ -1080,9 +1079,8 @@
           },
           "1f90cea5-04fb-4ef3-822b-5f987845e5c4": {
             "type": "link",
-            "disabled": true,
             "settings": {
-              "tt_hd": "HEADER LAYOUTS",
+              "tt_hd": "Medium",
               "url": "",
               "open_link": "_self",
               "menu": "",
