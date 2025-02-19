@@ -548,7 +548,7 @@
               "wid": "cus",
               "cus_wid": 1050,
               "id": 1,
-              "enable_packery": true,
+              "enable_packery": false,
               "r_s_h_item": "20",
               "r_s_v_item": "30"
             }
@@ -1049,19 +1049,17 @@
         "blocks": {
           "583a30c7-369d-4a64-a51d-ca53c1685206": {
             "type": "mega",
-            "disabled": true,
             "settings": {
               "id": 1
             }
           },
           "3abb98a1-837d-46af-b195-f5c43e7c88ee": {
             "type": "link",
-            "disabled": true,
             "settings": {
               "tt_hd": "HOME PAGES",
               "url": "",
               "open_link": "_self",
-              "menu": "",
+              "menu": "main-menu",
               "item_fsize": 13,
               "sp_bettewn_item": 20,
               "col": "3"
@@ -1379,7 +1377,7 @@
           "552902be-02b1-40ca-8475-982bbdb75ed7"
         ],
         "settings": {
-          "bg": ""
+          "bg": "#fff"
         }
       },
       "mb_nav": {
