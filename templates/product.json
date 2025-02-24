@@ -454,7 +454,7 @@
         "show_vendor": false,
         "use_cdt": false,
         "limit": 12,
-        "display_type": "4",
+        "display_type": "3",
         "image_ratio": "rationt",
         "image_size": "nt_cover",
         "image_position": "8",
