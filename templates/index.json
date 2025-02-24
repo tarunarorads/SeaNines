@@ -430,10 +430,10 @@
         "1646035040fee424aa-1": {
           "type": "collection_item",
           "settings": {
-            "collection": "accessories",
-            "image": "shopify://shop_images/pexels-anh-nguyen-517648218-29903505.jpg",
-            "collection_title": "Minimalist Art",
-            "collection_link": ""
+            "collection": "contemporary-art",
+            "image": "shopify://shop_images/Adoption_1-Copy.jpg",
+            "collection_title": "Contemporary Art",
+            "collection_link": "shopify://collections/contemporary-art"
           }
         },
         "1646035040fee424aa-2": {
