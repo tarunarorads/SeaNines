@@ -557,7 +557,7 @@
             "type": "drop",
             "settings": {
               "title": "Our artist",
-              "url": "",
+              "url": "shopify://blogs/artist",
               "open_link": "_self",
               "menu": "our-artist",
               "icon": "",
