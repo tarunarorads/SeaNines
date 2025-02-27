@@ -1089,23 +1089,22 @@
               "col": "4"
             }
           },
-          "6122e966-0272-4c46-a1a0-051bdc2ae08c": {
-            "type": "link",
-            "disabled": true,
-            "settings": {
-              "tt_hd": "FEATURES",
-              "url": "",
-              "open_link": "_self",
-              "menu": "",
-              "item_fsize": 13,
-              "sp_bettewn_item": 20,
-              "col": "3"
-            }
-          },
           "45fa281e-2be5-4727-bd01-942824713769": {
             "type": "mega",
             "settings": {
               "id": 2
+            }
+          },
+          "6122e966-0272-4c46-a1a0-051bdc2ae08c": {
+            "type": "link",
+            "settings": {
+              "tt_hd": "FEATURES",
+              "url": "",
+              "open_link": "_self",
+              "menu": "our-artist",
+              "item_fsize": 13,
+              "sp_bettewn_item": 20,
+              "col": "3"
             }
           },
           "02beea21-3cb9-41ce-a1ab-04ae44b7f47e": {
@@ -1355,8 +1354,8 @@
           "3abb98a1-837d-46af-b195-f5c43e7c88ee",
           "2ceac397-4b2b-4740-a477-707dd2680e02",
           "1f90cea5-04fb-4ef3-822b-5f987845e5c4",
-          "6122e966-0272-4c46-a1a0-051bdc2ae08c",
           "45fa281e-2be5-4727-bd01-942824713769",
+          "6122e966-0272-4c46-a1a0-051bdc2ae08c",
           "02beea21-3cb9-41ce-a1ab-04ae44b7f47e",
           "ff494243-e58b-40e9-a2ea-e64ccd58a624",
           "cec6a189-3084-497a-b4a8-b391531b2503",
