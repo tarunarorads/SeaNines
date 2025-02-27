@@ -1098,13 +1098,13 @@
           "6122e966-0272-4c46-a1a0-051bdc2ae08c": {
             "type": "link",
             "settings": {
-              "tt_hd": "FEATURES",
+              "tt_hd": "",
               "url": "",
               "open_link": "_self",
               "menu": "our-artist",
               "item_fsize": 13,
               "sp_bettewn_item": 20,
-              "col": "3"
+              "col": "12"
             }
           },
           "02beea21-3cb9-41ce-a1ab-04ae44b7f47e": {
