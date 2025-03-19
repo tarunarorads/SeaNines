@@ -20,6 +20,8 @@
     "logo_mb_width": 110,
     "logo_tr": "shopify://shop_images/header-logo-01.png",
     "logo_tr_width": 95,
+    "mobile_nav_type": "1",
+    "only_icon": false,
     "accent_color": "#ff6f24",
     "secondary_color": "#222",
     "link_color": "#878787",
@@ -1381,10 +1383,10 @@
           "mb_nav-0": {
             "type": "menu",
             "settings": {
-              "title": "Demo",
+              "title": "Paintings",
               "url": "",
               "open_link": "_self",
-              "menu": "",
+              "menu": "paintings",
               "lb": "",
               "lb_cl": "",
               "icons_op": "2",
@@ -1394,10 +1396,10 @@
           "mb_nav-1": {
             "type": "menu",
             "settings": {
-              "title": "Shop",
-              "url": "shopify://collections/women",
+              "title": "Our artist",
+              "url": "shopify://blogs/artist",
               "open_link": "_self",
-              "menu": "",
+              "menu": "our-artist",
               "lb": "",
               "lb_cl": "",
               "icons_op": "2",
