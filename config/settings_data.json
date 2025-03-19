@@ -1409,8 +1409,8 @@
           "mb_nav-2": {
             "type": "menu",
             "settings": {
-              "title": "Product",
-              "url": "shopify://products/analogue-resin-strap",
+              "title": "Gallery",
+              "url": "",
               "open_link": "_self",
               "menu": "",
               "lb": "",
