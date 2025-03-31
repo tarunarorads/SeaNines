@@ -596,6 +596,7 @@
           },
           "4a281327-6e12-4cd4-af83-0ce2f502e7b8": {
             "type": "mega",
+            "disabled": true,
             "settings": {
               "title": "Our categories",
               "url": "#",
@@ -1421,6 +1422,7 @@
           },
           "25fa7ecf-2db0-4747-b093-a1299099917e": {
             "type": "menu",
+            "disabled": true,
             "settings": {
               "title": "Our categories",
               "url": "",
