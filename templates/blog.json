@@ -102,7 +102,7 @@
         "image_ratio": "ratioadapt",
         "image_position": "8",
         "image_size": "contain",
-        "img_effect": "zoom",
+        "img_effect": "none",
         "b_effect": "pervasive-circle",
         "cl": "#ffffff",
         "cl2": "#878787",
