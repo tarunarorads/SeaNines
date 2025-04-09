@@ -507,26 +507,11 @@
               "text_align": "center",
               "col": "4"
             }
-          },
-          "cur_DkxYH6": {
-            "type": "cur",
-            "settings": {
-              "show_currency": true,
-              "show_language": true,
-              "use_location": true,
-              "txt_location": "Location",
-              "url_location": "",
-              "open_link": "_self",
-              "hide": false,
-              "text_align": "start",
-              "col": "4"
-            }
           }
         },
         "block_order": [
           "top-bar-0",
-          "text_rtNifJ",
-          "cur_DkxYH6"
+          "text_rtNifJ"
         ],
         "settings": {
           "show_topbar": true,
