@@ -60,6 +60,7 @@
     "show_search_hotkey": true,
     "currency_type": "1",
     "size_currency": "sm",
+    "currency_pos": "1",
     "round_currency": false,
     "notify_currency": true,
     "hover_currency": false,
