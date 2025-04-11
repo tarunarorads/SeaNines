@@ -13,7 +13,7 @@
    assign results_count = results.results_count | default: results.products_count
 %}
 
-<div data-filter-links id="t4s-filter-hidden" class="t4s-filter-hidden is--t4s-filter-native t4s-drawer t4s-drawer__left" aria-hidden="true">
+<div data-filter-links id="t4s-filter-hidden" class="t4s-filter-hidden is--t4s-filter-native t4s-drawer t4s-drawer__left custom-collection-template-{{ template | remove: 'collection.' }}" aria-hidden="true">
    <div class="t4s-drawer__header">
       <span>{{ 'products.facets.filter_title' | t }}</span>
       <button class="t4s-drawer__close" data-drawer-close aria-label="{{ 'search.general.close_search' | t }}"><svg class="t4s-iconsvg-close" role="presentation" viewBox="0 0 16 14" width="16"><path d="M15 0L1 14m14 0L1 0" stroke="currentColor" fill="none" fill-rule="evenodd"></path></svg></button>
