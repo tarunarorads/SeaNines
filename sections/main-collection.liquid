@@ -101,7 +101,7 @@
 {%- endif -%}
 
 {%- paginate collection.products by limit -%}
-<div class="t4s-section-inner t4s_nt_se_{{ section.id }} t4s_se_{{ section.id }} {{ stt_layout }} {% if stt_image_bg != blank and stt_layout != 't4s-se-container' %} t4s-has-imgbg lazyloadt4s {% endif %}"  {% if stt_image_bg != blank and stt_layout != 't4s-se-container' %} data-bgset="{{ stt_image_bg | image_url: width: 1 }}" data-sizes="auto"  data-optimumx="2" {% endif %} {% render 'section_style', se_stts: section.settings %} >
+<div class="t4s-section-inner t4s_nt_se_{{ section.id }} t4s_se_{{ section.id }} {{ stt_layout }} {% if stt_image_bg != blank and stt_layout != 't4s-se-container' %} t4s-has-imgbg lazyloadt4s {% endif %} custom-collection-template-{{ template | remove: 'collection.' }}"  {% if stt_image_bg != blank and stt_layout != 't4s-se-container' %} data-bgset="{{ stt_image_bg | image_url: width: 1 }}" data-sizes="auto"  data-optimumx="2" {% endif %} {% render 'section_style', se_stts: section.settings %} >
   {{- html_layout[0] -}}
   {%- if stt_layout == 't4s-se-container' -%}<div class="t4s-container-inner {% if stt_image_bg != blank %} t4s-has-imgbg lazyloadt4s {% endif %} "  {% if stt_image_bg != blank %}  data-bgset="{{ stt_image_bg | image_url: width: 1 }}" data-sizes="auto"  data-optimumx="2" {% endif %} > {%- endif -%}
   {%- if section.settings.position_desc == '1' and section.settings.show_desc -%}<div id="t4s-desc-collection" class="t4s-desc-collection t4s-desc-before t4s-rte">{{ collection.description }}</div>{%- endif -%} 
@@ -204,7 +204,7 @@
         {%- endcase -%}
       {%- endfor -%}
     </div>
-    {%- if show_filter and style_filters == 'area' %}<div class="t4s-filter-area" data-filter-area></div>{% endif -%}
+    {%- if show_filter and style_filters == 'area' %}<div class="t4s-filter-area is--filters-opened custom-template-filter-{{ template | remove: 'collection.' }}" data-filter-area style="display: block;"></div>{% endif -%}
   {%- endif -%}
   <div class="t4s-row">
     <div data-ntajax-container{% if show_filter %} data-has-filters{% endif %} data-ntajax-options='{"id":"{{ section.id }}","type":"{{ typeAjax }}","typeFilters":"{{ type_filters }}","isProduct":true,"updateURL":true,"updateURLPrev":true,"sort_by":"{{ collection.sort_by | default: collection.default_sort_by }}"}'{% unless collection.current_type or collection.current_vendor %} data-collection-url="{{ collection.url }}"{% endunless %} class="t4s-col-item t4s-col-12 t4s-main-area t4s-main-collection-page">     
@@ -345,6 +345,7 @@
 
   }());
 </script>
+
 {%- endif -%}
   
 {%- schema -%}
