@@ -103,7 +103,7 @@
         "menu": "main-menu",
         "sort_collections": "alphabetical",
         "box_border": "top",
-        "content_align": "center",
+        "content_align": "start",
         "hidden_mobile": false,
         "space_item": 30,
         "fontf": "inherit",
@@ -150,31 +150,6 @@
             "text_mgb_mobile": 5
           }
         },
-        "68582c09-d394-43f0-b988-c2b38412941b": {
-          "type": "4",
-          "disabled": true,
-          "settings": {
-            "design_des": "excerpt",
-            "length": 10,
-            "view_more": false,
-            "viewm_txt": "View more",
-            "fontf": "inherit",
-            "text_cl": "#ededed",
-            "text_fs": 14,
-            "text_lh": 24,
-            "text_fw": 400,
-            "text_ls": 0,
-            "font_italic": false,
-            "font_uppercase": false,
-            "text_shadow": false,
-            "text_mgb": 0,
-            "hidden_mobile": false,
-            "text_fs_mb": 14,
-            "text_lh_mb": 20,
-            "text_ls_mb": 0,
-            "text_mgb_mobile": 0
-          }
-        },
         "ce2a8456-1d79-4523-8329-3afa244c8b98": {
           "type": "3",
           "settings": {
@@ -185,7 +160,6 @@
       },
       "block_order": [
         "3b0cc506-49ea-4851-b5a6-ff7c2153b0e6",
-        "68582c09-d394-43f0-b988-c2b38412941b",
         "ce2a8456-1d79-4523-8329-3afa244c8b98"
       ],
       "settings": {
@@ -206,16 +180,33 @@
         "code_cus_css": ".SectionID {\nbackground-color:red\n}"
       }
     },
+    "custom_html_ePtVmN": {
+      "type": "custom-html",
+      "settings": {
+        "code": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": "50px,0,0,0",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": "20px,,,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
     "main": {
       "type": "main-collection",
       "blocks": {
         "filter_id": {
           "type": "filter",
           "settings": {
-            "style_filters": "sidebar"
+            "style_filters": "area"
           }
         },
-        "740319a4-8e19-4c70-b8a9-ada7cf235cbc": {
+        "layout_nfVnbJ": {
           "type": "layout",
           "settings": {}
         },
@@ -226,7 +217,7 @@
       },
       "block_order": [
         "filter_id",
-        "740319a4-8e19-4c70-b8a9-ada7cf235cbc",
+        "layout_nfVnbJ",
         "30594d23-d644-4653-9545-9ff769d2e6ab"
       ],
       "settings": {
@@ -242,7 +233,7 @@
         "limit": 12,
         "enable_listing": true,
         "enable_listing_default": false,
-        "col_dk": "3",
+        "col_dk": "4",
         "col_tb": "2",
         "col_mb": "2",
         "space_h_item": "30",
@@ -335,6 +326,7 @@
   "order": [
     "top",
     "heading_template",
+    "custom_html_ePtVmN",
     "main",
     "sidebar"
   ]
