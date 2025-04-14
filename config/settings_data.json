@@ -2329,5 +2329,15 @@
         "settings": {}
       }
     }
+  },
+  "platform_customizations": {
+    "custom_css": [
+      ".custom-collection-template-collection .is--blockidartist,.custom-collection-template-collection .is--blockidpalette,.custom-collection-template-collection .is--blockidmedium,.custom-collection-template-collection .is--blockidstyle {display: none !important;}",
+      ".custom-collection-template-gallery .is--blockidavailability {display: none;}",
+      ".custom-template-filter-gallery {display: block !important;}",
+      ".custom-template-filter-gallery .t4s-value-count {display: none !important;}",
+      "@media (min-width: 1024px) {.custom-template-filter-gallery.t4s-filter-area .t4s-facets__form > .t4s-col-item {width: 20%; }}",
+      ".custom-collection-template-gallery .t4s-collection-header .t4s-btn-filter-wrapper {display: none !important;}"
+    ]
   }
 }
