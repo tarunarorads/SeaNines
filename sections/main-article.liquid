@@ -570,8 +570,8 @@
                       {%- when 'accor_item' -%}
                         <div class="simple-tabs-wrapper">
                           <ul class="tabs">
-                            {% for i in 3 %}
-                              {% assign tab_title = bk_stts.tab_title_[i] %}
+                            {% for i in (1..3) %}
+                              {% assign tab_title = 'tab_title_' | append: i %}
                               {{ tab_title }}
                               <li class="tab-button{% if forloop.first %} active{% endif %}" data-tab="tab-{{ forloop.index }}">
                                 {{ tab_title }}
@@ -580,8 +580,8 @@
                           </ul>
                         
                           <div class="tabs-content">
-                            {% for i in 3 %}
-                              {% assign tab_content = bk_stts.tab_content_[i] %}
+                            {% for i in (1..3) %}
+                              {% assign tab_content = 'tab_content_' | append: i %}
                               {{ tab_content }}
                               <div class="tab-content{% if forloop.first %} active{% endif %}" id="tab-{{ forloop.index }}">
                                 {{ tab_content }}
