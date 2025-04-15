@@ -567,6 +567,8 @@
                                 <input type="submit" class="t4s-btn t4s-btn-base t4s-btn-style-{{ bk_stts.button_style }} t4s-btn-size-{{ bk_stts.btn_size }} t4s-btn-color-{{ bk_stts.btn_cl }}{% if bk_stts.enable_full_btn %} t4s-w-100 t4s-justify-content-center{% endif %} t4s-btn-effect-fade t4s-cursor-pointer" value="{{ 'blogs.comments.post' | t }}">
                             {%- endform -%}
                         </div>
+                      {%- when 'html' -%}
+                        
                     {%- endcase -%}
             {%- endfor -%}
         </div>
@@ -775,7 +777,7 @@
     "blocks": [
         {
           "type": "accor_item",
-          "name": "Accordion item", 
+          "name": "Additional info", 
           "limit": 1,
             "settings": [
               {
