@@ -572,6 +572,7 @@
                           <ul class="tabs">
                             {% for i in 3 %}
                               {% assign tab_title = bk_stts.tab_title_[i] %}
+                              {{ tab_title }}
                               <li class="tab-button{% if forloop.first %} active{% endif %}" data-tab="tab-{{ forloop.index }}">
                                 {{ tab_title }}
                               </li>
@@ -581,6 +582,7 @@
                           <div class="tabs-content">
                             {% for i in 3 %}
                               {% assign tab_content = bk_stts.tab_content_[i] %}
+                              {{ tab_content }}
                               <div class="tab-content{% if forloop.first %} active{% endif %}" id="tab-{{ forloop.index }}">
                                 {{ tab_content }}
                               </div>
