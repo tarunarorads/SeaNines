@@ -571,19 +571,20 @@
                         <div class="simple-tabs-wrapper">
                           <ul class="tabs">
                             {% for i in (1..3) %}
-                              {% assign tab_title = 'tab_title_' | append: i %}
-                              {{ tab_title }}
+                              {% assign tab_key = 'tab_title_' | append: i %}
+                              {% assign tab_title = bk_stts[tab_key] %}
                               <li class="tab-button{% if forloop.first %} active{% endif %}" data-tab="tab-{{ forloop.index }}">
-                                {{ bk_stts.tab_title }}
+                                {{ tab_title }}
                               </li>
                             {% endfor %}
                           </ul>
                         
                           <div class="tabs-content">
                             {% for i in (1..3) %}
-                              {% assign tab_content = 'tab_content_' | append: i %}
+                              {% assign tab_key = 'tab_content_' | append: i %}
+                              {% assign tab_content = bk_stts[tab_key] %}
                               <div class="tab-content{% if forloop.first %} active{% endif %}" id="tab-{{ forloop.index }}">
-                                {{ bk_stts.tab_content }}
+                                {{ tab_content }}
                               </div>
                             {% endfor %}
                           </div>
