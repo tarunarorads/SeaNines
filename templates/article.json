@@ -124,11 +124,11 @@
         "accor_item_UWjc4i": {
           "type": "accor_item",
           "settings": {
-            "tab_title_1": "Tab 1",
+            "tab_title_1": "Perspective",
             "tab_content_1": "<p>This is the content for Tab 1.</p>",
-            "tab_title_2": "Tab 2",
+            "tab_title_2": "Education",
             "tab_content_2": "<p>This is the content for Tab 2.</p>",
-            "tab_title_3": "Tab 3",
+            "tab_title_3": "Exhibition",
             "tab_content_3": "<p>This is the content for Tab 3.</p>"
           }
         },
