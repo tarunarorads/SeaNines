@@ -567,8 +567,62 @@
                                 <input type="submit" class="t4s-btn t4s-btn-base t4s-btn-style-{{ bk_stts.button_style }} t4s-btn-size-{{ bk_stts.btn_size }} t4s-btn-color-{{ bk_stts.btn_cl }}{% if bk_stts.enable_full_btn %} t4s-w-100 t4s-justify-content-center{% endif %} t4s-btn-effect-fade t4s-cursor-pointer" value="{{ 'blogs.comments.post' | t }}">
                             {%- endform -%}
                         </div>
-                      {%- when 'html' -%}
+                      {%- when 'accor_item' -%}
+                        {{ 'section.css' | asset_url | stylesheet_tag }}
+                        {{ 'accordion.css' | asset_url | stylesheet_tag }}
+                        {%- liquid
+                          assign sid = section.id
+                          assign se_stts = section.settings
+                          assign se_blocks = section.blocks
+                          assign stt_layout = se_stts.layout
+                          assign stt_image_bg = se_stts.image_bg
+                          if se_stts.layout == 't4s-cus-width'
+                            assign html_layout = '<div class="t4s-container" style="--width:010693px">__</div>' | split: '__'
+                          elsif stt_layout == 't4s-se-container' 
+                            assign html_layout = '<div class="t4s-container">__</div></div>' | split: '__'
+                          elsif stt_layout == 't4s-container-wrap'
+                            assign html_layout = '<div class="t4s-container">__</div>' | split: '__'
+                          else
+                            assign html_layout = '__' | split: '__'
+                          endif
+                          assign search_url = routes.all_products_collection_url
                         
+                          assign t4s_se_class = 't4s_nt_se_' | append: sid
+                          if se_stts.use_cus_css and se_stts.code_cus_css != blank
+                            render 'se_cus_css', code_cus_css: se_stts.code_cus_css, t4s_se_class: t4s_se_class
+                          endif 
+                          assign forloop_first = true
+                         -%}
+                          <div class="t4s-section-inner t4s_nt_se_{{ sid }} t4s_se_{{ sid }} {{ stt_layout }} {% if stt_image_bg != blank and stt_layout != 't4s-se-container' %} t4s-has-imgbg lazyloadt4s {% endif %} "  {% if stt_image_bg != blank and stt_layout != 't4s-se-container' %}  data-bgset="{{ stt_image_bg | image_url: width: 1 }}" data-sizes="auto"  data-optimumx="2" {% endif %}   {% render 'section_style', se_stts: se_stts %}>
+                            {{- html_layout[0] |replace: '010693', se_stts.custom_width -}}
+                            {%- if stt_layout == 't4s-se-container' -%}<div class="t4s-container-inner {% if stt_image_bg != blank %} t4s-has-imgbg lazyloadt4s {% endif %} "  {%- if stt_image_bg != blank -%} data-bgset="{{ stt_image_bg | image_url: width: 1 }}" data-sizes="auto"  data-optimumx="2" {%- endif -%} > {%- endif -%}
+                            <div class="t4s-accordion-style-{{ se_stts.accor_des }}" itemscope itemtype="https://schema.org/FAQPage">
+                              {%- render 'section_tophead', se_stts: se_stts -%}
+                              <div class="t4s-tabs t4s-type-accordion {{ se_stts.content_align }}" data-t4s-tabs style="--title-cl: {{ se_stts.title_cl }};--bg-title-cl: {{ se_stts.bg_title_cl }};--title-active-cl: {{ se_stts.title_active_cl }};--bg-title-active-cl: {{ se_stts.bg_title_active_cl }};--content-cl: {{ se_stts.content_cl }};--bg-content-cl: {{ se_stts.bg_content_cl }};">
+                                {%- for block in se_blocks -%}
+                                  {%- assign bk_stts = block.settings -%} 
+                                  {%- assign blockid = block.id -%}
+                                  {%- if bk_stts.title == blank or bk_stts.content == blank -%}{% continue %}{%- endif -%}
+                                  <div class="t4s-tab-wrapper {% if forloop_first and se_stts.auto_active %} t4s-active {% endif %}" data-t4s-tab-wrapper {{ block.shopify_attributes }} itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                                    <a id="b_{{ block.id }}" class="t4s-accor-title" href="#t4s-{{ blockid }}" rel="nofollow" data-t4s-tab-item data-no-instant>
+                                      <span class="t4s-accor-text">
+                                        <span class="t4s-accor-icon">{%- render 'icon_accordion',icon: bk_stts.icon -%} </span>
+                                        <span itemprop="name">{{ bk_stts.title }}</span>
+                                      </span>
+                                      <span class="t4s-accor-item-nav"></span>
+                                    </a>
+                                    <div id="t4s-{{ blockid }}" class="t4s-tab-content t4s-rte" data-t4s-tab-content {% if se_stts.auto_active == false %} style="display: none;"{%- endif -%} itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                                      <div itemprop="text">
+                                        {{ bk_stts.content }}
+                                      </div>
+                                    </div>
+                                  </div>
+                                  {%- assign forloop_first = false -%}
+                                {%- endfor -%}
+                              </div>
+                            </div>
+                            {{- html_layout[1] -}}
+                        </div>  
                     {%- endcase -%}
             {%- endfor -%}
         </div>
