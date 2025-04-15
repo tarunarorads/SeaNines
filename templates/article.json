@@ -125,11 +125,11 @@
           "type": "accor_item",
           "settings": {
             "tab_title_1": "Perspective",
-            "tab_content_1": "<p>This is the content for Tab 1.</p>",
+            "tab_content_1": "{{ article.metafields.custom.artist_perspective | metafield_tag }}",
             "tab_title_2": "Education",
-            "tab_content_2": "<p>This is the content for Tab 2.</p>",
+            "tab_content_2": "{{ article.metafields.custom.artist_education | metafield_tag }}",
             "tab_title_3": "Exhibition",
-            "tab_content_3": "<p>This is the content for Tab 3.</p>"
+            "tab_content_3": "{{ article.metafields.custom.artist_exhibition | metafield_tag }}"
           }
         },
         "e8da95d6-7323-4d99-a68c-16088d24fa34": {
