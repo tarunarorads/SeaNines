@@ -54,7 +54,7 @@
         "164602873867eb3815-1": {
           "type": "custom_text",
           "settings": {
-            "text": "SUMMER 2023",
+            "text": "SUMMER 2025",
             "remove_br_tag": false,
             "tag": "p",
             "fontf": "inherit",
@@ -77,18 +77,18 @@
         "164602873867eb3815-2": {
           "type": "custom_text",
           "settings": {
-            "text": "New Arrival Collection",
+            "text": "Original Art Inspire love",
             "remove_br_tag": false,
             "tag": "p",
             "fontf": "inherit",
             "text_cl": "#ffffff",
             "text_fs": 55,
-            "text_lh": 55,
-            "text_fw": 600,
+            "text_lh": 86,
+            "text_fw": 500,
             "text_ls": 0,
             "text_mgb": 10,
             "font_italic": false,
-            "text_shadow": false,
+            "text_shadow": true,
             "hidden_mobile": false,
             "text_fs_mb": 18,
             "text_lh_mb": 18,
