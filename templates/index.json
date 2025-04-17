@@ -530,26 +530,8 @@
           "type": "collection_item",
           "settings": {
             "collection": "accessories",
-            "image": "shopify://shop_images/KaliAsthesupremedeity_1.jpg",
+            "image": "shopify://shop_images/Maa_Tara_2_-_Copy.jpg",
             "collection_title": "Minimalist Art",
-            "collection_link": ""
-          }
-        },
-        "collection_item_6FTjzb": {
-          "type": "collection_item",
-          "settings": {
-            "collection": "shoes",
-            "image": "shopify://shop_images/pexels-photo-462235.jpg",
-            "collection_title": "Modern art prints",
-            "collection_link": ""
-          }
-        },
-        "collection_item_Y33KMi": {
-          "type": "collection_item",
-          "settings": {
-            "collection": "watch",
-            "image": "shopify://shop_images/Untitled_1-Copy_ab694d2a-aedd-45bc-b8e2-e7dcb2193844.jpg",
-            "collection_title": "Geometric Art",
             "collection_link": ""
           }
         },
@@ -562,12 +544,31 @@
             "collection_link": ""
           }
         },
+        "collection_item_Y33KMi": {
+          "type": "collection_item",
+          "settings": {
+            "collection": "watch",
+            "image": "shopify://shop_images/Untitled_1-Copy_ab694d2a-aedd-45bc-b8e2-e7dcb2193844.jpg",
+            "collection_title": "Geometric Art",
+            "collection_link": ""
+          }
+        },
         "collection_item_DpXmqB": {
           "type": "collection_item",
           "settings": {
             "collection": "",
-            "image": "shopify://shop_images/1._Glance_1.jpg",
+            "image": "shopify://shop_images/P1118325-Copy.jpg",
             "collection_title": "Animals Art",
+            "collection_link": ""
+          }
+        },
+        "collection_item_6FTjzb": {
+          "type": "collection_item",
+          "disabled": true,
+          "settings": {
+            "collection": "shoes",
+            "image": "shopify://shop_images/pexels-photo-462235.jpg",
+            "collection_title": "Modern art prints",
             "collection_link": ""
           }
         }
@@ -575,10 +576,10 @@
       "block_order": [
         "collection_item_6brCz6",
         "collection_item_WKti8A",
-        "collection_item_6FTjzb",
-        "collection_item_Y33KMi",
         "collection_item_AFY9ir",
-        "collection_item_DpXmqB"
+        "collection_item_Y33KMi",
+        "collection_item_DpXmqB",
+        "collection_item_6FTjzb"
       ],
       "settings": {
         "design_heading": "2",
