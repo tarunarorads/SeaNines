@@ -2369,6 +2369,13 @@
         "type": "shopify://apps/ryviu-reviews-qa/blocks/ryviu-js/807ad6ed-1a6a-4559-abea-ed062858d9da",
         "disabled": false,
         "settings": {}
+      },
+      "2209279550302034861": {
+        "type": "shopify://apps/revenuehunt-recommender-quiz/blocks/link-popup/672f3d48-fd3b-4227-8778-c6e58c4f8a98",
+        "disabled": false,
+        "settings": {
+          "show_list": true
+        }
       }
     }
   },
