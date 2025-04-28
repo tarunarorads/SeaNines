@@ -1496,7 +1496,7 @@
             "type": "menu",
             "settings": {
               "title": "Inspire You",
-              "url": "#quiz-xVHeBrA",
+              "url": "shopify://pages/inspire-you",
               "open_link": "_self",
               "menu": "",
               "lb": "",
