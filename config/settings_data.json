@@ -655,7 +655,7 @@
             "type": "drop",
             "settings": {
               "title": "Inspire You",
-              "url": "#quiz-xVHeBrA",
+              "url": "shopify://pages/inspire-you",
               "open_link": "_self",
               "menu": "",
               "icon": "",
