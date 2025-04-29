@@ -527,7 +527,7 @@
         "top_subheading": "",
         "tophead_mb": 30,
         "layout_des": "1",
-        "click_image": "data-t4s-gallery",
+        "click_image": "data-goto",
         "nav_thumbs": true,
         "open_link": "_blank",
         "item_rd": 0,
