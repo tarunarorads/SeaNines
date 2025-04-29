@@ -15,27 +15,29 @@
       <span class="t4s-count">{{ collection.all_products_count | default: 0 }}</span>  
     {% endif %}
     <{% if collection_des == "16" %}div{% else %}a{% endif %} class="t4s_cat_item_link t4s-img-wrap t4s-d-block" href="{{ collection_link }}" target="{{ open_link }}">
-      <div class="collection-img img-eff1">
-        <div class="ov1"></div>
-        <div class="ov2"></div>
-        <div class="ov3"></div>
-        <div class="ov4"></div>
-         
-        <div class="colection-info">
-          {%- if title != blank -%}
-            <div class="all-info">
-                <a class="info1" href="{{ collection_link }}" target="{{ open_link }}">
-                  <span class="t4s-text">{{ title }}</span> {% if collection_des == "12" %} <span class="t4s-count">{{ collection.all_products_count | default: 0 }}</span> {% endif %}
-                </a>
-              {%- if subtitle != blank -%}
-                <a class="info2" href="{{ collection_link }}" target="{{ open_link }}">
-                  <span class="t4s-count">{{ collection.all_products_count | default: 0 }}</span> <span class="t4s-text">{{ subtitle }}</span>
-                </a>
-              {%- endif -%}
-            </div>
-          {%- endif -%}
+      {% if collection_des == "16" %}
+        <div class="collection-img img-eff1">
+          <div class="ov1"></div>
+          <div class="ov2"></div>
+          <div class="ov3"></div>
+          <div class="ov4"></div>
+           
+          <div class="colection-info">
+            {%- if title != blank -%}
+              <div class="all-info">
+                  <a class="info1" href="{{ collection_link }}" target="{{ open_link }}">
+                    <span class="t4s-text">{{ title }}</span> {% if collection_des == "12" %} <span class="t4s-count">{{ collection.all_products_count | default: 0 }}</span> {% endif %}
+                  </a>
+                {%- if subtitle != blank -%}
+                  <a class="info2" href="{{ collection_link }}" target="{{ open_link }}">
+                    <span class="t4s-count">{{ collection.all_products_count | default: 0 }}</span> <span class="t4s-text">{{ subtitle }}</span>
+                  </a>
+                {%- endif -%}
+              </div>
+            {%- endif -%}
+          </div>
         </div>
-      </div>  
+      {% endif %}
       <div class="t4s_ratio t4s_ratio_hasmb t4s-bg-11" style="{%- if image != blank -%} background: url({{ image | image_url: width: 1 }});{%- endif -%} --aspect-ratioapt: {{ html[4] }}/{{ html[5] }};--aspect-ratioapttb: {{ html[6] }}/{{ html[7] }};--aspect-ratioaptmb: {{ html[8] }}/{{ html[9] }};" data-cacl-slide>
       {%- if image != blank -%}
         <img {% if image.presentation.focal_point != '50.0% 50.0%' %} style="object-position: {{ image.presentation.focal_point }}"{% endif %} class="lazyloadt4s t4s-lz--fadeIn t4s-obj-eff" data-src="{{ image | image_url: width: 1 }}" data-widths="[100,200,400,600,700,800,900,1000,1200,1400,1600]" data-optimumx="2" data-sizes="auto" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" width="{{ image.width }}" height="{{ image.height }}" alt="{{ image.alt | escape }}">
