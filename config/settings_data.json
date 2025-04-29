@@ -534,7 +534,7 @@
           "topbar_transparent": false,
           "height": 45,
           "fontsize": 12,
-          "cl": "#878787",
+          "cl": "#ff6f24",
           "cl_a_hover": "#ff6f24",
           "bg": "#f6f6f8",
           "bg_op": 100,
