@@ -229,7 +229,7 @@
             "type": "bl_col",
             "settings": {
               "col_heading": "Categories",
-              "menu": "footer",
+              "menu": "categories",
               "menu_style": "1",
               "col_border": "none",
               "col_dk": "2",
