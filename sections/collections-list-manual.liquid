@@ -192,6 +192,7 @@
           --t4s-aspect-ratio: calc(100% / (var(--aspect-ratioapttb)));
       }
     }
+    {% if collection_des == "16" %}
     @media screen and (max-width:767px){
       .featured-thumb .t4s_cat_item_link .colection-info .info1 span{font-size:18px;padding:0 10px;line-height:20px;display:block}
     }
@@ -309,6 +310,7 @@
     .featured-thumb .t4s_cat_item_link:hover .ov4 {
       bottom: 5%;
     }
+    {% endif %}  
   </style>
 
 {%- schema -%}
