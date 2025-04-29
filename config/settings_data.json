@@ -674,7 +674,7 @@
             "type": "drop",
             "settings": {
               "title": "Art Consultancy",
-              "url": "#",
+              "url": "shopify://pages/art-consultancy",
               "open_link": "_self",
               "menu": "",
               "icon": "",
