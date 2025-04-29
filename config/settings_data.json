@@ -530,7 +530,7 @@
           "cur_bkew4c"
         ],
         "custom_css": [
-          ".t4s-top-bar-custom__html.t4s-rte--list {font-size: 14px;}"
+          ".t4s-top-bar-custom__html.t4s-rte--list {font-size: 16px;}"
         ],
         "settings": {
           "show_topbar": true,
