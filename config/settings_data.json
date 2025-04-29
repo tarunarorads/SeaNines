@@ -232,7 +232,7 @@
               "menu": "categories",
               "menu_style": "1",
               "col_border": "none",
-              "col_dk": "2",
+              "col_dk": "3",
               "col_tb": "6",
               "col_mb": "12",
               "content_align": "t4s-text-md-start",
@@ -251,7 +251,7 @@
               "menu": "information",
               "menu_style": "1",
               "col_border": "none",
-              "col_dk": "2",
+              "col_dk": "3",
               "col_tb": "6",
               "col_mb": "12",
               "content_align": "t4s-text-md-start",
@@ -265,6 +265,7 @@
           },
           "footer-8": {
             "type": "bl_col",
+            "disabled": true,
             "settings": {
               "col_heading": "Useful links",
               "menu": "",
@@ -304,7 +305,7 @@
           "footer-11": {
             "type": "custom_text",
             "settings": {
-              "text": "Subscribe to our newsletter and get 10% off your first purchase",
+              "text": "Subscribe to our newsletter for the latest updates on new arrivals, exclusive collections, and art inspiration – straight to your inbox",
               "remove_br_tag": false,
               "tag": "p",
               "fontf": "inherit",
