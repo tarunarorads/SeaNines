@@ -461,6 +461,7 @@
       "block_order": [
         "165206094067bbb516-0"
       ],
+      "disabled": true,
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -502,6 +503,89 @@
         "use_cus_css": false,
         "code_cus_css": ".SectionID {\nbackground-color:red\n}"
       }
+    },
+    "image_gallery_VQtrEe": {
+      "type": "image-gallery",
+      "blocks": {
+        "image_item_3Ta8jy": {
+          "type": "image_item",
+          "settings": {
+            "image": "shopify://shop_images/IMG_4299-768x1024.jpg",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_item_3Ta8jy"
+      ],
+      "name": "Image gallery",
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "layout_des": "1",
+        "click_image": "data-t4s-gallery",
+        "nav_thumbs": true,
+        "open_link": "_blank",
+        "item_rd": 0,
+        "img_effect": "none",
+        "b_effect": "none",
+        "image_ratio": "ratioadapt",
+        "image_size": "contain",
+        "image_position": "8",
+        "col_dk": "2",
+        "col_tb": "1",
+        "col_mb": "1",
+        "space_item": "30",
+        "space_item_mb": "10",
+        "loop": true,
+        "au_time": 0,
+        "au_hover": true,
+        "nav_btn": true,
+        "btn_vi": "hover",
+        "btn_owl": "default",
+        "btn_shape": "none",
+        "btn_cl": "dark",
+        "btn_size": "small",
+        "btn_hidden_mobile": false,
+        "nav_dot": true,
+        "dot_owl": "default",
+        "dots_cl": "dark",
+        "dots_round": false,
+        "dots_space": 10,
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": "",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "custom_html_rUxYtg": {
+      "type": "custom-html",
+      "name": "Custom HTML",
+      "settings": {
+        "code": "<div class=\"t4s-text-center\" style=\"padding: 15px 0;color: #000;\">\n<h4 class=\"t4s-member-name\">Simran Kaur’s</h4>\n<span>Founder</span>\n</div>",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
     }
   },
   "order": [
@@ -511,6 +595,8 @@
     "1652061282d05ea8a5",
     "1652061282d05ea8a6",
     "1652061697dd10b7fc",
-    "1652060940154cd301"
+    "1652060940154cd301",
+    "image_gallery_VQtrEe",
+    "custom_html_rUxYtg"
   ]
 }
