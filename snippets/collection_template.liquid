@@ -8,13 +8,13 @@
  -%}
 
 {{ html[0] }}
-<div class="t4s-col-item featured-thumb t4s-collection-item t4s-coll-style-{{ collection_des }} coll-item-{{ stt }} t4s-col-lg-{{ html[1] }} t4s-col-md-{{ html[2] }} t4s-col-{{ html[3] }}" id="b_{{ block.id }}">      
+<div class="t4s-col-item {% if collection_des == "16" %}featured-thumb{% endif %} t4s-collection-item t4s-coll-style-{{ collection_des }} coll-item-{{ stt }} t4s-col-lg-{{ html[1] }} t4s-col-md-{{ html[2] }} t4s-col-{{ html[3] }}" id="b_{{ block.id }}">      
   <div class="t4s-cat-content t4s-source-{{ source }} t4s-eff t4s-eff-{{ b_effect }} t4s-eff-img-{{ img_effect }} t4s-text-center t4s-pr t4s-oh" timeline hdt-reveal="slide-in">
     <div class="t4s-coll-img t4s-pr" data-cacl-slide>
     {% if collection_des == "11" %}
       <span class="t4s-count">{{ collection.all_products_count | default: 0 }}</span>  
     {% endif %}
-    <div class="t4s_cat_item_link t4s-img-wrap t4s-d-block" href="{{ collection_link }}" target="{{ open_link }}">
+    <{% if collection_des == "16" %}div{% else %}a{% endif %} class="t4s_cat_item_link t4s-img-wrap t4s-d-block" href="{{ collection_link }}" target="{{ open_link }}">
       <div class="collection-img img-eff1">
         <div class="ov1"></div>
         <div class="ov2"></div>
@@ -44,22 +44,22 @@
         {%- render 'svg_holder', txt: txt, fs: "40px" | placeholder_svg_tag: 't4s-placeholder-svg t4s-obj-eff' -%}
       {%- endif -%}
       </div>
+    </{% if collection_des == "16" %}div{% else %}a{% endif %}>
     </div>
-    </div>
-    {% comment %}
-    {%- if title != blank -%}
-      <div class="t4s-cate-wrapper">
-          <a class="t4s-cat-title" href="{{ collection_link }}" target="{{ open_link }}">
-            <span class="t4s-text">{{ title }}</span> {% if collection_des == "12" %} <span class="t4s-count">{{ collection.all_products_count | default: 0 }}</span> {% endif %}
-          </a>
-        {%- if subtitle != blank -%}
-          <a class="t4s-cat-subtitle" href="{{ collection_link }}" target="{{ open_link }}">
-            <span class="t4s-count">{{ collection.all_products_count | default: 0 }}</span> <span class="t4s-text">{{ subtitle }}</span>
-          </a>
-        {%- endif -%}
-      </div>
-    {%- endif -%}
-    {% endcomment %}
+    {% unless collection_des == "16" %}
+      {%- if title != blank -%}
+        <div class="t4s-cate-wrapper">
+            <a class="t4s-cat-title" href="{{ collection_link }}" target="{{ open_link }}">
+              <span class="t4s-text">{{ title }}</span> {% if collection_des == "12" %} <span class="t4s-count">{{ collection.all_products_count | default: 0 }}</span> {% endif %}
+            </a>
+          {%- if subtitle != blank -%}
+            <a class="t4s-cat-subtitle" href="{{ collection_link }}" target="{{ open_link }}">
+              <span class="t4s-count">{{ collection.all_products_count | default: 0 }}</span> <span class="t4s-text">{{ subtitle }}</span>
+            </a>
+          {%- endif -%}
+        </div>
+      {%- endif -%}
+    {% endunless %}
   </div>
 </div>
 {{ html[10] }}
