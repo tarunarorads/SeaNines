@@ -161,7 +161,7 @@
         "16520612827b9f51d5-2": {
           "type": "custom_text",
           "settings": {
-            "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, <em>totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae </em> vitae dicta sunt explicabo nemo enim ipsam.",
+            "text": "To awe, to inspire, and to spark creativity with the art that breaks the mold, pushing our imagination about the world. We want to bring you closer to the universe in general with powerful, deep works of art.",
             "remove_br_tag": true,
             "tag": "p",
             "fontf": "inherit",
@@ -221,7 +221,7 @@
         "dbb9472b-71cc-423e-87c4-f311cfcf2f6a": {
           "type": "custom_text",
           "settings": {
-            "text": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "text": "Every artwork at SeaNines has a story—a story that touches similar emotions and experiences. From serenity at the sea to the dynamics of life, our art calls you to move in close to these common stories.",
             "remove_br_tag": true,
             "tag": "p",
             "fontf": "inherit",
@@ -311,7 +311,7 @@
         "16520612827b9f51d5-2": {
           "type": "custom_text",
           "settings": {
-            "text": "Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,<em> sed quia non numquam eius modi tempora incidunt ut labore </em>et dolore magnam aliquam quaerat voluptatem.",
+            "text": "We look for artworks that move the heart and deliver more than looks. Every work we showcase, we choose based on its potential to touch you, to make you think, and to alter the way you live.",
             "remove_br_tag": true,
             "tag": "p",
             "fontf": "inherit",
@@ -371,7 +371,7 @@
         "dbb9472b-71cc-423e-87c4-f311cfcf2f6a": {
           "type": "custom_text",
           "settings": {
-            "text": "Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? Quis nostrum exercitationem ullam.",
+            "text": "We believe that life is a depiction of existence by art—dynamic, mysterious, and evolving. Our mission lies in the confidence that art needs to be feeling, evoking thought, transformation, and feeling part of something greater than us.",
             "remove_br_tag": true,
             "tag": "p",
             "fontf": "inherit",
@@ -426,7 +426,7 @@
         "icon_heading": "las la-gem",
         "top_subheading": "",
         "tophead_mb": 30,
-        "content_quote": "<p><em>I am text block. Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo. Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? Quis nostrum exercitationem ullam.</em></p>",
+        "content_quote": "<p>Art is the language of the soul, a timeless connection between the heart and the universe. At SeaNines, we believe every masterpiece holds a story that awakens the spirit and invites us to see the world through new eyes</p>",
         "layout": "t4s-container-wrap",
         "cl_bg": "",
         "cl_bg_gradient": "",
