@@ -77,46 +77,6 @@
         "code_cus_css": ".SectionID {\nbackground-color:red\n}"
       }
     },
-    "about_us_qXnRDC": {
-      "type": "about_us",
-      "blocks": {
-        "bl_text_EWRn9n": {
-          "type": "bl_text",
-          "settings": {
-            "text": "<p>We invite you to SeaNines, where art communicates with the soul and mutters back to the universe. Art is not shapes and colors to us—it is a spiritual expression that echoes with human creativity, change, and the secrets of life. As inspired as the boundless sea, we choose expressions that prompt us to examine, revive, and change.<br/><br/><br/>Our name, SeaNines, is a combination of the boundless energy of the sea and the symbolic power of the digit nine—the vision of birth, cycles, and new beginnings. Every piece that we have to share is an opening, a story that goes beyond emotions and feelings that touch one and all of us. In SeaNines, art has to be lived and not gazed at.<br/>Come where imagination converges with the universe and every masterpiece speaks your story.<br/></p>",
-            "mgb": 25,
-            "mgb_mb": 10
-          }
-        }
-      },
-      "block_order": [
-        "bl_text_EWRn9n"
-      ],
-      "name": "About us",
-      "settings": {
-        "design_heading": "1",
-        "heading_align": "t4s-text-center",
-        "top_heading": "",
-        "icon_heading": "las la-gem",
-        "top_subheading": "",
-        "tophead_mb": 30,
-        "txt_align": "center",
-        "image_ratio": "ratio16_9",
-        "image_size": "cover",
-        "image_position": "8",
-        "layout": "t4s-container-wrap",
-        "cl_bg": "",
-        "cl_bg_gradient": "",
-        "mg": ",,50px,",
-        "pd": "",
-        "mg_tb": "",
-        "pd_tb": "",
-        "mg_mb": ",,30px,",
-        "pd_mb": "",
-        "use_cus_css": false,
-        "code_cus_css": ""
-      }
-    },
     "main": {
       "type": "main-page",
       "settings": {
@@ -630,7 +590,6 @@
   },
   "order": [
     "heading",
-    "about_us_qXnRDC",
     "main",
     "sidebar-page",
     "1652061282d05ea8a5",
