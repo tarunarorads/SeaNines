@@ -724,7 +724,7 @@
             "type": "drop",
             "settings": {
               "title": "Art Bidding",
-              "url": "#",
+              "url": "shopify://pages/art-bidding",
               "open_link": "_self",
               "menu": "",
               "icon": "",
