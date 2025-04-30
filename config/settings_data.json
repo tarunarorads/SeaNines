@@ -68,6 +68,8 @@
     "notify_currency": true,
     "hover_currency": false,
     "colors_css": true,
+    "custom_css_t4s": true,
+    "global_css": ".t4s-product-price {\n    display: none;\n}",
     "share_tumblr": true,
     "share_telegram": true,
     "share_whatsapp": false,
