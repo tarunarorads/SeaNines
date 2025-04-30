@@ -1532,7 +1532,7 @@
             "type": "menu",
             "settings": {
               "title": "Art Bidding",
-              "url": "shopify://blogs/fashion",
+              "url": "shopify://pages/art-bidding",
               "open_link": "_self",
               "menu": "",
               "lb": "",
