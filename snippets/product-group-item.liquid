@@ -31,7 +31,9 @@ assign image = product.featured_media | default: placeholder_img
 				</div>
 			{%- endif -%}
 			<h3 class="t4s-widget__pr-title"><a data-pr-href href="{{ pr_url }}">{{ product.title }}</a></h3>
-      {%- render 'product-price', class_price: 't4s-widget__pr-price', product: product, price_varies_style: price_varies_style, isGrouped: false -%}
+      {% comment %}
+        {%- render 'product-price', class_price: 't4s-widget__pr-price', product: product, price_varies_style: price_varies_style, isGrouped: false -%}
+      {% endcomment %}
 		</div>
 	</div>
 </div>
