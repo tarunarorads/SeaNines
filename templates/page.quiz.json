@@ -90,7 +90,7 @@
           "type": "shopify://apps/revenuehunt-recommender-quiz/blocks/inline-quiz/672f3d48-fd3b-4227-8778-c6e58c4f8a98",
           "settings": {
             "quiz_id": "#quiz-PMHJjwM",
-            "quiz_height": 560,
+            "quiz_height": 800,
             "quiz_autoscroll": true,
             "quiz_fixed_height": false
           }
