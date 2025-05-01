@@ -161,7 +161,7 @@
         "16520612827b9f51d5-2": {
           "type": "custom_text",
           "settings": {
-            "text": "To awe, to inspire, and to spark creativity with the art that breaks the mold, pushing our imagination about the world. We want to bring you closer to the universe in general with powerful, deep works of art.",
+            "text": "To awe, to inspire, and to spark creativity with the art that breaks the mold, pushing your imagination about the world. We want to bring you closer to the universe in general with powerful, deep works of art.",
             "remove_br_tag": true,
             "tag": "p",
             "fontf": "inherit",
@@ -426,7 +426,7 @@
         "icon_heading": "las la-gem",
         "top_subheading": "",
         "tophead_mb": 30,
-        "content_quote": "<p>Art is the language of the soul, a timeless connection between the heart and the universe. At SeaNines, we believe every masterpiece holds a story that awakens the spirit and invites us to see the world through new eyes</p>",
+        "content_quote": "<p>Art is the language of the soul, a timeless connection between the heart and the universe. At SeaNines, we believe every   art piece  holds a story that awakens the spirit and invites us to see the world through new eyes</p>",
         "layout": "t4s-container-wrap",
         "cl_bg": "",
         "cl_bg_gradient": "",
