@@ -132,7 +132,7 @@
         "aca13d02-fdca-4dd7-b455-cc71ffabb08a": {
           "type": "image_parent",
           "settings": {
-            "image": "shopify://shop_images/Banner_2.jpg",
+            "image": "shopify://shop_images/Untitled_1-Copy_ab694d2a-aedd-45bc-b8e2-e7dcb2193844.jpg",
             "image_position": "8",
             "cl_img": "",
             "link_img1": "",
@@ -170,6 +170,7 @@
         },
         "b069b77f-6f77-41d8-839e-5f21d12217db": {
           "type": "custom_text",
+          "disabled": true,
           "settings": {
             "text": "NEW SEASON",
             "remove_br_tag": false,
@@ -194,7 +195,7 @@
         "ff196d3a-1239-4855-9969-90603c8cb52d": {
           "type": "custom_text",
           "settings": {
-            "text": "Own Art that brings energy to your walls.",
+            "text": "Own Art that energizes your walls.",
             "remove_br_tag": false,
             "tag": "p",
             "fontf": "inherit",
