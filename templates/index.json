@@ -640,41 +640,42 @@
         "collection_item_kMXHhF": {
           "type": "collection_item",
           "settings": {
-            "collection": "accessories",
+            "collection": "colour-red",
             "image": "shopify://shop_images/pexels-anh-nguyen-517648218-29903505.jpg",
-            "collection_title": "Below INR 500",
+            "collection_title": "",
             "collection_link": ""
           }
         },
         "collection_item_nGhQDe": {
           "type": "collection_item",
           "settings": {
-            "collection": "shoes",
+            "collection": "colour-blue",
             "image": "shopify://shop_images/pexels-photo-462235.jpg",
-            "collection_title": "INR 500 to 1000",
+            "collection_title": "",
             "collection_link": ""
           }
         },
         "collection_item_dnYkid": {
           "type": "collection_item",
           "settings": {
-            "collection": "watch",
+            "collection": "black-white",
             "image": "shopify://shop_images/pexels-photo-8251476.jpg",
-            "collection_title": "INR 500 to 3000",
+            "collection_title": "",
             "collection_link": ""
           }
         },
         "collection_item_Wm4q9x": {
           "type": "collection_item",
           "settings": {
-            "collection": "",
+            "collection": "chromatic",
             "image": "shopify://shop_images/church-window-baptism-sacrament-glass-window.jpg",
-            "collection_title": "INR 3000 to 5000",
+            "collection_title": "",
             "collection_link": ""
           }
         },
         "collection_item_6bfnkU": {
           "type": "collection_item",
+          "disabled": true,
           "settings": {
             "collection": "",
             "image": "shopify://shop_images/pexels-photo-3246665.png",
@@ -693,7 +694,7 @@
       "settings": {
         "design_heading": "2",
         "heading_align": "t4s-text-center",
-        "top_heading": "Shop by Price",
+        "top_heading": "Shop by Colour",
         "icon_heading": "gem",
         "top_subheading": "",
         "tophead_mb": 30,
