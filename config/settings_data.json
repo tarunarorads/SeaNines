@@ -12,7 +12,7 @@
     "purchase_code": "47c6920a-c7e9-4188-a2c1-50db2bb9a5f1",
     "use_rtl": "0",
     "header_design": "inline",
-    "logo": "shopify://shop_images/seanines.png",
+    "logo_svg": "https://cdn.shopify.com/s/files/1/0675/5224/7979/files/seanine_logo.svg",
     "logo_width": 140,
     "logos": "shopify://shop_images/kalles.png",
     "logos_width": 140,
@@ -197,9 +197,9 @@
           "de84a111-3ed0-40a2-b86a-1e81488e9bff": {
             "type": "image",
             "settings": {
-              "image_child": "shopify://shop_images/seanines.png",
+              "image_child": "shopify://shop_images/seanine_logo.svg",
               "link_img": "",
-              "img_width": 95,
+              "img_width": 160,
               "img_width_mb": 0,
               "mgb": 34,
               "mgb_mb": 24
