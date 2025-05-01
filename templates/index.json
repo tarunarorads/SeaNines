@@ -53,6 +53,7 @@
         },
         "164602873867eb3815-1": {
           "type": "custom_text",
+          "disabled": true,
           "settings": {
             "text": "SUMMER 2025",
             "remove_br_tag": false,
