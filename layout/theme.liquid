@@ -64,12 +64,7 @@ t4sp-theme t4s-wrapper__{{ settings.general_layout }}{% if settings.animations_r
     <script src="{{ 'global.min.js' | asset_url }}" defer="defer"></script>
     {{ content_for_header }}
     {%- render 'head_assets', t_name: t_name, isRTL: isRTL -%}
-    <style>
-      img {
-        -webkit-user-drag: none;
-        user-drag: none;
-      }
-    </style>
+
   </head>
 
   <body class="template-{{ request.page_type | handle }} {{ class_lazy }}"{% if body_img != blank %} data-bgset="{{ body_img | image_url: width: 1 }}" data-optimumx="2" data-sizes="auto"{% endif -%}>{% if isRTL %}<script type="text/javascript" id="t4s-flicker-fix">// Flicker fix.</script>{% endif -%}
@@ -96,33 +91,7 @@ t4sp-theme t4s-wrapper__{{ settings.general_layout }}{% if settings.animations_r
       render 'render_bottom'
       render 'structured-data'
     -%}
-    <script>
-    // Disable right click
-    document.addEventListener('contextmenu', event => event.preventDefault());
-  
-    // Disable copy
-    document.addEventListener('copy', event => event.preventDefault());
-  
-    // Disable cut
-    document.addEventListener('cut', event => event.preventDefault());
-  
-    // Disable paste (if needed)
-    document.addEventListener('paste', event => event.preventDefault());
 
-     // Disable F12, Ctrl+Shift+I, Ctrl+Shift+J, Ctrl+U
-  document.onkeydown = function(e) {
-    if(e.keyCode == 123) { // F12
-      return false;
-    }
-    if(e.ctrlKey && e.shiftKey && (e.keyCode == 'I'.charCodeAt(0) || 
-                                   e.keyCode == 'J'.charCodeAt(0))) {
-      return false;
-    }
-    if(e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) {
-      return false;
-    }
-  }  
-  </script>
 
   </body>
 </html>
