@@ -1439,6 +1439,60 @@
               "btn_hidden_mobile": true,
               "col": "8"
             }
+          },
+          "mega_YTW8Mq": {
+            "type": "mega",
+            "settings": {
+              "id": 6
+            }
+          },
+          "blogs_TTM3MH": {
+            "type": "blogs",
+            "settings": {
+              "blog": "fashion",
+              "post_des": "1",
+              "show_cate": false,
+              "show_tags": true,
+              "show_cnt": false,
+              "show_au": true,
+              "show_dt": true,
+              "show_cm": true,
+              "show_rm": false,
+              "show_irm": false,
+              "date": "date",
+              "content_align": "t4s-text-center",
+              "limit": 8,
+              "img_effect": "zoom",
+              "b_effect": "none",
+              "image_ratio": "ratio4_3",
+              "image_size": "cover",
+              "image_position": "8",
+              "col_dk": "2",
+              "space_h_item": "30",
+              "space_v_item": "30",
+              "layout_des": "2",
+              "nav_btn": true,
+              "btn_vi": "always",
+              "btn_owl": "outline",
+              "btn_shape": "round",
+              "btn_cl": "dark",
+              "btn_size": "small",
+              "btn_hidden_mobile": true,
+              "col": "8"
+            }
+          },
+          "link_fgEyVP": {
+            "type": "link",
+            "disabled": true,
+            "settings": {
+              "tt_hd": "",
+              "url": "",
+              "open_link": "_self",
+              "menu": "our-artist",
+              "item_fsize": 13,
+              "sp_bettewn_item": 5,
+              "col": "12"
+            }
           }
         },
         "block_order": [
@@ -1462,7 +1516,10 @@
           "41ee689a-9ef7-46ab-a5a6-5fa4776a9af6",
           "758ddd07-8ea5-4c0e-80a1-e7eef279fa5f",
           "5665b9cc-d2a6-42e0-b267-e4b36da8a05e",
-          "552902be-02b1-40ca-8475-982bbdb75ed7"
+          "552902be-02b1-40ca-8475-982bbdb75ed7",
+          "mega_YTW8Mq",
+          "blogs_TTM3MH",
+          "link_fgEyVP"
         ],
         "settings": {
           "bg": "#ffffff"
