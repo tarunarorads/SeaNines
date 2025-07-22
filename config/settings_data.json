@@ -1449,7 +1449,7 @@
           "blogs_TTM3MH": {
             "type": "blogs",
             "settings": {
-              "blog": "fashion",
+              "blog": "artist",
               "post_des": "1",
               "show_cate": false,
               "show_tags": true,
@@ -1461,24 +1461,24 @@
               "show_irm": false,
               "date": "date",
               "content_align": "t4s-text-center",
-              "limit": 8,
-              "img_effect": "zoom",
+              "limit": 50,
+              "img_effect": "none",
               "b_effect": "none",
-              "image_ratio": "ratio4_3",
+              "image_ratio": "ratioadapt",
               "image_size": "cover",
               "image_position": "8",
-              "col_dk": "2",
+              "col_dk": "4",
               "space_h_item": "30",
               "space_v_item": "30",
               "layout_des": "2",
               "nav_btn": true,
               "btn_vi": "always",
-              "btn_owl": "outline",
+              "btn_owl": "default",
               "btn_shape": "round",
-              "btn_cl": "dark",
+              "btn_cl": "primary",
               "btn_size": "small",
               "btn_hidden_mobile": true,
-              "col": "8"
+              "col": "12"
             }
           },
           "link_fgEyVP": {
