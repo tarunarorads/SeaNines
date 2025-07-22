@@ -65,6 +65,53 @@ t4sp-theme t4s-wrapper__{{ settings.general_layout }}{% if settings.animations_r
     {{ content_for_header }}
     {%- render 'head_assets', t_name: t_name, isRTL: isRTL -%}
 
+     <style>
+      /* Disable user select and image drag on all images */
+      img {
+        -webkit-touch-callout: none; /* iOS Safari long press save */
+        -webkit-user-select: none;   /* Safari */
+        -khtml-user-select: none;    /* Konqueror HTML */
+        -moz-user-select: none;      /* Old Firefox */
+        -ms-user-select: none;       /* IE/Edge */
+        user-select: none;           /* Modern browsers */
+        -webkit-user-drag: none;     /* Chrome/Safari/Opera */
+        user-drag: none;
+      }
+    </style>
+    
+    <script>
+      // Disable right click on entire page
+      document.addEventListener('contextmenu', function(e) {
+        e.preventDefault();
+      });
+    
+      // Disable copy, cut, paste
+      document.addEventListener('copy', function(e) {
+        e.preventDefault();
+      });
+      document.addEventListener('cut', function(e) {
+        e.preventDefault();
+      });
+      document.addEventListener('paste', function(e) {
+        e.preventDefault();
+      });
+    
+      // Disable F12 and Inspect Element shortcuts
+      document.onkeydown = function(e) {
+        if(e.keyCode == 123) { // F12
+          return false;
+        }
+        if(e.ctrlKey && e.shiftKey && (e.keyCode == 'I'.charCodeAt(0) ||
+                                       e.keyCode == 'J'.charCodeAt(0))) {
+          return false;
+        }
+        if(e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) {
+          return false;
+        }
+      }
+  </script>
+
+
   </head>
 
   <body class="template-{{ request.page_type | handle }} {{ class_lazy }}"{% if body_img != blank %} data-bgset="{{ body_img | image_url: width: 1 }}" data-optimumx="2" data-sizes="auto"{% endif -%}>{% if isRTL %}<script type="text/javascript" id="t4s-flicker-fix">// Flicker fix.</script>{% endif -%}
