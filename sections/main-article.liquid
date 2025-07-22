@@ -585,7 +585,22 @@
                               {% assign tab_key = 'tab_content_' | append: i %}
                               {% assign tab_content = bk_stts[tab_key] %}
                               <div class="tab-content{% if forloop.first %} active{% endif %}" id="tab-{{ forloop.index }}">
-                                {{ tab_content }}
+                                
+                                {% if forloop.index == 3 %}
+                                  <div class="readmore-container">
+                                    <div class="readmore-content">
+                                      <div class="metafield-rich_text_field">
+                                        {{ tab_content }}
+                                      </div>
+                                    </div>
+                                    <div class="button-container">
+                                      <button class="readmore-toggle" style="display: none;">Read More</button>
+                                    </div>
+                                  </div>
+                                {% else %}
+                                  {{ tab_content }}
+                                {% endif %}
+                              
                               </div>
                             {% endfor %}
                           </div>
@@ -605,6 +620,50 @@
                                 document.getElementById(tab.dataset.tab).classList.add('active');
                               });
                             });
+                            
+                            //"Read More" "Read Less" toggle only for Tab 3 (Exhibition tab) on Artist detail page
+                            const container = document.querySelector("#tab-3 .readmore-container");
+                            if (!container) return;
+                          
+                            const content = container.querySelector(".readmore-content");
+                            const toggleBtn = container.querySelector(".readmore-toggle");
+                          
+                            // Clone to measure actual height
+                            const temp = content.cloneNode(true);
+                            temp.style.position = 'absolute';
+                            temp.style.visibility = 'hidden';
+                            temp.style.height = 'auto';
+                            temp.style.maxHeight = 'none';
+                            temp.style.overflow = 'visible';
+                            document.body.appendChild(temp);
+                          
+                            const fullHeight = temp.scrollHeight;
+                            document.body.removeChild(temp);
+                          
+                            const maxHeight = parseInt(window.getComputedStyle(content).maxHeight);
+                          
+                            if (fullHeight > maxHeight + 5) {
+                              toggleBtn.style.display = 'inline-block';
+                            }
+                          
+                            toggleBtn.addEventListener("click", function () {
+                              const isExpanded = content.classList.contains("expanded");
+                          
+                              if (!isExpanded) {
+                                content.style.maxHeight = fullHeight + "px";
+                                content.classList.add("expanded");
+                                toggleBtn.textContent = "Read Less";
+                              } else {
+                                content.style.maxHeight = maxHeight + "px";
+                                content.classList.remove("expanded");
+                                toggleBtn.textContent = "Read More";
+                              }
+                            });
+                          
+                            // Add smooth transition via inline style
+                            content.style.transition = "max-height 0.4s ease";
+                            content.style.maxHeight = maxHeight + "px"; // initialize properly
+                            
                           });
                         </script>
                         
@@ -639,6 +698,66 @@
                         .tabs-content .tab-content.active {
                           display: block;
                         }
+
+                        /*read more read less css*/           
+                        .readmore-container {
+                            position: relative;
+                          }
+                          
+                          .readmore-content {
+                            overflow: hidden;
+                            transition: max-height 0.3s ease;
+                          }
+                          .button-container {
+                            text-align: center;
+                            width: 56%;
+                          }
+                          
+                          /* Responsive max-height for small to large screens */
+                          @media (max-width: 600px) {
+                            .readmore-content {
+                              max-height: 120px;
+                            }
+                            .button-container {
+                                text-align: right;
+                                width: inherit;
+                            }
+                          }
+                          @media (min-width: 601px) and (max-width: 1023px) {
+                            .readmore-content {
+                              max-height: 120px;
+                            }
+                            .button-container {
+                                text-align: center;
+                                width: 90%;
+                            }
+                          }
+                          @media (min-width: 1024px) {
+                            .readmore-content {
+                              max-height: 145px;
+                            }
+                            .button-container {
+                                text-align: center;
+                                width: 68%;
+                            }
+                          }
+                          
+                          /*.readmore-content.expanded {
+                            max-height: none !important;
+                          }*/
+                          
+                          .readmore-toggle {
+                            margin-top: 10px;
+                            background: transparent;
+                            border: none;
+                            color: #ff6f24;
+                            font-weight: normal;
+                            cursor: pointer;
+                          }
+                          .readmore-toggle:hover {               
+                            background: transparent;
+                            color: #ff6f24;
+                          }
                         </style>
                         {% endif %}  
                     {%- endcase -%}
