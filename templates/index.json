@@ -1528,7 +1528,7 @@
           "settings": {
             "icon_themes": "help",
             "icon": "las la-life-ring",
-            "title": "SUPPORT 24/7",
+            "title": "SUPPORT MON-FRI",
             "text": "",
             "html": ""
           }
@@ -1538,7 +1538,7 @@
           "settings": {
             "icon_themes": "refesh",
             "icon": "las la-undo-alt",
-            "title": "30 DAYS RETURN",
+            "title": "3 DAYS RETURN",
             "text": "",
             "html": ""
           }
