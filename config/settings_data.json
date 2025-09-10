@@ -1534,7 +1534,7 @@
             "type": "menu",
             "settings": {
               "title": "Paintings",
-              "url": "",
+              "url": "shopify://collections/paintings",
               "open_link": "_self",
               "menu": "paintings",
               "lb": "",
@@ -1601,7 +1601,7 @@
             "type": "menu",
             "settings": {
               "title": "Art Consultancy",
-              "url": "shopify://blogs/fashion",
+              "url": "shopify://pages/art-consultancy",
               "open_link": "_self",
               "menu": "",
               "lb": "",
