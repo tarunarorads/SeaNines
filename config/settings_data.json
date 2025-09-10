@@ -69,7 +69,7 @@
     "hover_currency": false,
     "colors_css": true,
     "custom_css_t4s": true,
-    "global_css": ".t4s-product-price, .t4s-widget__pr-price {\n    display: none;\n}",
+    "global_css": "",
     "share_tumblr": true,
     "share_telegram": true,
     "share_whatsapp": false,
