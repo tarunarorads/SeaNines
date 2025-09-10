@@ -606,7 +606,7 @@
             "type": "drop",
             "disabled": true,
             "settings": {
-              "title": "Our artist",
+              "title": "Our Artist",
               "url": "shopify://blogs/artist",
               "open_link": "_self",
               "menu": "our-artist",
@@ -645,6 +645,7 @@
           },
           "drop_bJDn6i": {
             "type": "drop",
+            "disabled": true,
             "settings": {
               "title": "Gallery",
               "url": "shopify://collections/gallery",
