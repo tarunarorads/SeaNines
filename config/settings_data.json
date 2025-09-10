@@ -1546,7 +1546,7 @@
           "mb_nav-1": {
             "type": "menu",
             "settings": {
-              "title": "Our artist",
+              "title": "Our Artist",
               "url": "shopify://blogs/artist",
               "open_link": "_self",
               "menu": "our-artist",
@@ -1558,6 +1558,7 @@
           },
           "mb_nav-2": {
             "type": "menu",
+            "disabled": true,
             "settings": {
               "title": "Gallery",
               "url": "",
