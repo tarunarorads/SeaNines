@@ -25,17 +25,25 @@
             "font_italic": false,
             "font_uppercase": true,
             "text_shadow": false,
-            "text_mgb": 0,
+            "text_mgb": 10,
             "hidden_mobile": false,
             "text_fs_mb": 20,
             "text_lh_mb": 0,
             "text_ls_mb": 0,
             "text_mgb_mobile": 0
           }
+        },
+        "3_NwUy7a": {
+          "type": "3",
+          "settings": {
+            "breadcrumb_color": "#f2f2f2",
+            "brc_mgb": 5
+          }
         }
       },
       "block_order": [
-        "d0d2c35c-3f4c-4081-91ad-0758affed801"
+        "d0d2c35c-3f4c-4081-91ad-0758affed801",
+        "3_NwUy7a"
       ],
       "settings": {
         "heading_fullwidth": false,
