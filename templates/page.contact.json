@@ -25,28 +25,36 @@
             "font_italic": false,
             "font_uppercase": true,
             "text_shadow": false,
-            "text_mgb": 0,
+            "text_mgb": 10,
             "hidden_mobile": false,
             "text_fs_mb": 20,
             "text_lh_mb": 0,
             "text_ls_mb": 0,
             "text_mgb_mobile": 0
           }
+        },
+        "3_ir8tE8": {
+          "type": "3",
+          "settings": {
+            "breadcrumb_color": "#f2f2f2",
+            "brc_mgb": 5
+          }
         }
       },
       "block_order": [
-        "d0d2c35c-3f4c-4081-91ad-0758affed801"
+        "d0d2c35c-3f4c-4081-91ad-0758affed801",
+        "3_ir8tE8"
       ],
       "settings": {
         "heading_fullwidth": false,
         "use_specify_image": true,
         "parallax": false,
-        "color": "#000000",
-        "overlay": 54,
+        "color": "#222222",
+        "overlay": 90,
         "padding": 50,
         "paddingmb": 50,
-        "mg_b": 0,
-        "mg_bmb": 0,
+        "mg_b": 50,
+        "mg_bmb": 30,
         "content_align": "t4s-text-center",
         "bg_pos": "center center",
         "bg_repeat": "no-repeat",
