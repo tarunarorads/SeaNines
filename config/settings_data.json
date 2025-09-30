@@ -233,6 +233,7 @@
           },
           "footer-4": {
             "type": "bl_col",
+            "disabled": true,
             "settings": {
               "col_heading": "Categories",
               "menu": "categories",
@@ -257,7 +258,7 @@
               "menu": "information",
               "menu_style": "1",
               "col_border": "none",
-              "col_dk": "2",
+              "col_dk": "15",
               "col_tb": "6",
               "col_mb": "12",
               "content_align": "t4s-text-md-start",
@@ -295,7 +296,7 @@
               "menu": "",
               "menu_style": "1",
               "col_border": "none",
-              "col_dk": "3",
+              "col_dk": "4",
               "col_tb": "6",
               "col_mb": "12",
               "content_align": "t4s-text-md-start",
