@@ -35,6 +35,7 @@
         },
         "c1ab6fbb-940f-4eb4-b374-ce3370b4382f": {
           "type": "2",
+          "disabled": true,
           "settings": {
             "content": "<p>Follow your passion, and success will follow you</p>",
             "fontf": "inherit",
