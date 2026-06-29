@@ -71,9 +71,9 @@
     "share_tumblr": true,
     "share_telegram": true,
     "share_whatsapp": false,
-    "social_facebook_link": "https://www.facebook.com/profile.php?id=61556303357438",
+    "social_facebook_link": "https://www.facebook.com/seaninesofficial",
     "social_twitter_link": "",
-    "social_instagram_link": "https://www.instagram.com/monamourgallery?igsh=dDFtam81ZmE3ZXd4&utm_source=qr",
+    "social_instagram_link": "https://www.instagram.com/seaninesofficial/",
     "social_dribbble_link": "",
     "social_linkedin_link": "",
     "social_pinterest_link": "",
@@ -84,8 +84,8 @@
     "social_behance_link": "",
     "social_soundcloud_link": "",
     "social_tiktok_link": "",
-    "favicon": "shopify://shop_images/favicon-black.png",
-    "favicon_apple": "shopify://shop_images/favicon-black.png",
+    "favicon": "shopify://shop_images/Mon__Amor_coloured_logo_with_tagline.png",
+    "favicon_apple": "shopify://shop_images/Mon__Amor_coloured_logo_with_tagline.png",
     "pr_incoming_mess": true,
     "use_vimg": true,
     "sticky_atc": true,
@@ -389,7 +389,7 @@
           "collapse": true,
           "border_top": false,
           "enable_follow_on_shop": true,
-          "border_pos": "full",
+          "border_pos": "in",
           "space_h_item": "30",
           "space_v_item": "30",
           "space_h_item_tb": "15",
@@ -496,26 +496,6 @@
               "col": "4"
             }
           },
-          "text_rtNifJ": {
-            "type": "text",
-            "settings": {
-              "text": "<p><strong>Shipping Worldwide</strong></p>",
-              "adding_border": false,
-              "countdown": "2023/12/26",
-              "txt_day": "days",
-              "dayx": 0,
-              "effect": "1",
-              "au_time": 3.5,
-              "fw_bold": 400,
-              "cl_a": "#222222",
-              "cl_bold": "#222222",
-              "cl_a_tr": "#ffffff",
-              "cl_bold_tr": "#ec0101",
-              "hide": false,
-              "text_align": "center",
-              "col": "12"
-            }
-          },
           "cur_bkew4c": {
             "type": "cur",
             "settings": {
@@ -533,14 +513,13 @@
         },
         "block_order": [
           "top-bar-0",
-          "text_rtNifJ",
           "cur_bkew4c"
         ],
         "custom_css": [
           ".t4s-top-bar-custom__html.t4s-rte--list {font-size: 16px;}"
         ],
         "settings": {
-          "show_topbar": false,
+          "show_topbar": true,
           "topbar_transparent": false,
           "height": 45,
           "fontsize": 12,
