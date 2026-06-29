@@ -540,7 +540,7 @@
           ".t4s-top-bar-custom__html.t4s-rte--list {font-size: 16px;}"
         ],
         "settings": {
-          "show_topbar": true,
+          "show_topbar": false,
           "topbar_transparent": false,
           "height": 45,
           "fontsize": 12,
