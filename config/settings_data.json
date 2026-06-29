@@ -84,7 +84,7 @@
     "social_behance_link": "",
     "social_soundcloud_link": "",
     "social_tiktok_link": "",
-    "favicon": "{{ shop.brand.square_logo }}",
+    "favicon": "shopify://shop_images/Mon__Amor_coloured_logo_with_tagline_6daecf5e-7ff8-4e23-9822-73bf3b6ed643.png",
     "favicon_apple": "shopify://shop_images/Mon__Amor_coloured_logo_with_tagline_6daecf5e-7ff8-4e23-9822-73bf3b6ed643.png",
     "pr_incoming_mess": true,
     "use_vimg": true,
@@ -682,11 +682,11 @@
               "r_s_v_item": "30"
             }
           },
-          "556a85dc-041d-4d44-8c22-263ed70a8b48": {
+          "334013b4-82f3-4046-8371-eaf3c3340153": {
             "type": "drop",
             "settings": {
-              "title": "Art Consultancy",
-              "url": "shopify://pages/art-consultancy",
+              "title": "Inspire You",
+              "url": "shopify://pages/inspire-you",
               "open_link": "_self",
               "menu": "",
               "icon": "",
@@ -701,11 +701,11 @@
               "sp_bettewn_item": 20
             }
           },
-          "334013b4-82f3-4046-8371-eaf3c3340153": {
+          "556a85dc-041d-4d44-8c22-263ed70a8b48": {
             "type": "drop",
             "settings": {
-              "title": "Inspire You",
-              "url": "shopify://pages/inspire-you",
+              "title": "Art Consultancy",
+              "url": "shopify://pages/art-consultancy",
               "open_link": "_self",
               "menu": "",
               "icon": "",
@@ -769,8 +769,8 @@
           "3944a4f5-3618-4f4b-9d13-238ddb1b72f2",
           "drop_bJDn6i",
           "4a281327-6e12-4cd4-af83-0ce2f502e7b8",
-          "556a85dc-041d-4d44-8c22-263ed70a8b48",
           "334013b4-82f3-4046-8371-eaf3c3340153",
+          "556a85dc-041d-4d44-8c22-263ed70a8b48",
           "9a73cf8b-993e-4dbe-9f11-6e990bfb91c0",
           "drop_TQXzpp"
         ],
