@@ -84,7 +84,7 @@
     "social_behance_link": "",
     "social_soundcloud_link": "",
     "social_tiktok_link": "",
-    "favicon": "{{ shop.brand.logo }}",
+    "favicon": "{{ shop.brand.square_logo }}",
     "favicon_apple": "shopify://shop_images/Mon__Amor_coloured_logo_with_tagline_6daecf5e-7ff8-4e23-9822-73bf3b6ed643.png",
     "pr_incoming_mess": true,
     "use_vimg": true,
