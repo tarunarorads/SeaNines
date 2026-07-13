@@ -1916,35 +1916,3 @@
 {%- javascript -%}
 {%- endjavascript -%}
 
-<style>
-/* Container adjustment to act as the anchor */
-.t4s-newsletter-form .t4s-newsletter-form-fields,
-.t4s-newsletter-form form {
-  position: relative !important;
-  display: block !important;
-}
-
-/* Force the Input Field to leave room for the icon on the left */
-.t4s-newsletter-form input[type="email"] {
-  padding-left: 45px !important; /* Pushes text to the right so it doesn't clash with the icon */
-  width: 100% !important;
-}
-
-/* Position the Mail Icon *OVER* the Input Box */
-.t4s-newsletter-form svg,
-.t4s-newsletter-form .icon-mail,
-.t4s-newsletter-form [class*="icon"] {
-  position: absolute !important;
-  left: 15px !important;        /* Aligns it to the left inside edge */
-  top: 50% !important;          /* Centers it vertically */
-  transform: translateY(-50%) !important; /* Perfect vertical alignment adjustment */
-  z-index: 3 !important;        /* Pulls it above the background input layer */
-  pointer-events: none !important; /* Allows clicking through the icon to focus the text field */
-  
-  /* Standard sizes across devices */
-  width: 20px !important;
-  height: 20px !important;
-  min-width: 20px !important;
-  min-height: 20px !important;
-}
-}</style>
