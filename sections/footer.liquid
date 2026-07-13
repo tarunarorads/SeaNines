@@ -1917,27 +1917,34 @@
 {%- endjavascript -%}
 
 <style>
-/* Force Mail Icon to Normal Size Across All Devices */
-.t4s-newsletter-form svg,
-.t4s-footer-wrap svg[class*="mail"],
-.t4s-footer-wrap .icon-mail,
-svg.t4s-btn-icon {
-  width: 24px !important;
-  height: 24px !important;
-  min-width: 24px !important;
-  min-height: 24px !important;
-  display: inline-block !important;
-  vertical-align: middle !important;
-  transform: none !important;
+/* Container adjustment to act as the anchor */
+.t4s-newsletter-form .t4s-newsletter-form-fields,
+.t4s-newsletter-form form {
+  position: relative !important;
+  display: block !important;
 }
 
-/* Mobile specific adjustment to ensure it doesn't warp */
-@media (max-width: 767px) {
-  .t4s-newsletter-form svg,
-  .t4s-footer-wrap svg[class*="mail"] {
-    width: 22px !important;
-    height: 22px !important;
-    min-width: 22px !important;
-    min-height: 22px !important;
-  }
+/* Force the Input Field to leave room for the icon on the left */
+.t4s-newsletter-form input[type="email"] {
+  padding-left: 45px !important; /* Pushes text to the right so it doesn't clash with the icon */
+  width: 100% !important;
+}
+
+/* Position the Mail Icon *OVER* the Input Box */
+.t4s-newsletter-form svg,
+.t4s-newsletter-form .icon-mail,
+.t4s-newsletter-form [class*="icon"] {
+  position: absolute !important;
+  left: 15px !important;        /* Aligns it to the left inside edge */
+  top: 50% !important;          /* Centers it vertically */
+  transform: translateY(-50%) !important; /* Perfect vertical alignment adjustment */
+  z-index: 3 !important;        /* Pulls it above the background input layer */
+  pointer-events: none !important; /* Allows clicking through the icon to focus the text field */
+  
+  /* Standard sizes across devices */
+  width: 20px !important;
+  height: 20px !important;
+  min-width: 20px !important;
+  min-height: 20px !important;
+}
 }</style>
