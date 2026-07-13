@@ -1915,3 +1915,29 @@
 
 {%- javascript -%}
 {%- endjavascript -%}
+
+<style>
+/* Force Mail Icon to Normal Size Across All Devices */
+.t4s-newsletter-form svg,
+.t4s-footer-wrap svg[class*="mail"],
+.t4s-footer-wrap .icon-mail,
+svg.t4s-btn-icon {
+  width: 24px !important;
+  height: 24px !important;
+  min-width: 24px !important;
+  min-height: 24px !important;
+  display: inline-block !important;
+  vertical-align: middle !important;
+  transform: none !important;
+}
+
+/* Mobile specific adjustment to ensure it doesn't warp */
+@media (max-width: 767px) {
+  .t4s-newsletter-form svg,
+  .t4s-footer-wrap svg[class*="mail"] {
+    width: 22px !important;
+    height: 22px !important;
+    min-width: 22px !important;
+    min-height: 22px !important;
+  }
+}</style>
