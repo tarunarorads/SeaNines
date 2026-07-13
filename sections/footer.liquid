@@ -1915,3 +1915,15 @@
 
 {%- javascript -%}
 {%- endjavascript -%}
+<style>
+  /* Forces the mail icon to a standard size and strips weird styling */
+  .t4s-footer-wrap svg, 
+  .t4s-newsletter-form svg,
+  [class*="icon-mail"] svg {
+    width: 20px !important;
+    height: 20px !important;
+    max-width: 20px !important;
+    max-height: 20px !important;
+    transform: none !important;
+  }
+</style>
