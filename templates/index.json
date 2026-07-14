@@ -12,10 +12,10 @@
     "1646028739ae283905": {
       "type": "slideshow",
       "blocks": {
-        "164602873867eb3815-0": {
+        "164602873867eb3815-4": {
           "type": "image_parent",
           "settings": {
-            "image": "shopify://shop_images/Ladywithkadaknath_1-Copy_1ec26f48-2ebc-45e3-9be0-f093094407e7.jpg",
+            "image": "shopify://shop_images/Banner_3.jpg",
             "image_position": "8",
             "cl_img": "",
             "link_img1": "",
@@ -30,7 +30,7 @@
             "ch_pos_mb": 0,
             "bg_overlay": "#000000",
             "bg_opacity": 0,
-            "bg_content_cl": "rgba(0,0,0,0)",
+            "bg_content_cl": "#ffffff",
             "bg_content_op": 0,
             "content_radius": 0,
             "box_square": false,
@@ -48,7 +48,7 @@
             "br_pd": 20,
             "br_pd_mb": 10,
             "time_animation": 1,
-            "animation_delay": 30
+            "animation_delay": 40
           }
         },
         "164602873867eb3815-1": {
@@ -78,7 +78,7 @@
         "164602873867eb3815-2": {
           "type": "custom_text",
           "settings": {
-            "text": "Original Art Inspire love",
+            "text": "The first contemporary art gallery in Jaipur.",
             "remove_br_tag": false,
             "tag": "p",
             "fontf": "inherit",
@@ -246,10 +246,10 @@
             "animation": "fadeInRight"
           }
         },
-        "164602873867eb3815-4": {
+        "164602873867eb3815-0": {
           "type": "image_parent",
           "settings": {
-            "image": "shopify://shop_images/Banner_3.jpg",
+            "image": "shopify://shop_images/Ladywithkadaknath_1-Copy_1ec26f48-2ebc-45e3-9be0-f093094407e7.jpg",
             "image_position": "8",
             "cl_img": "",
             "link_img1": "",
@@ -264,7 +264,7 @@
             "ch_pos_mb": 0,
             "bg_overlay": "#000000",
             "bg_opacity": 0,
-            "bg_content_cl": "#ffffff",
+            "bg_content_cl": "rgba(0,0,0,0)",
             "bg_content_op": 0,
             "content_radius": 0,
             "box_square": false,
@@ -282,7 +282,7 @@
             "br_pd": 20,
             "br_pd_mb": 10,
             "time_animation": 1,
-            "animation_delay": 40
+            "animation_delay": 30
           }
         },
         "164602873867eb3815-5": {
@@ -365,7 +365,7 @@
         }
       },
       "block_order": [
-        "164602873867eb3815-0",
+        "164602873867eb3815-4",
         "164602873867eb3815-1",
         "164602873867eb3815-2",
         "390cb6f8-c5fc-44ed-badf-074a03818e5a",
@@ -373,7 +373,7 @@
         "b069b77f-6f77-41d8-839e-5f21d12217db",
         "ff196d3a-1239-4855-9969-90603c8cb52d",
         "efa3ea83-c43c-48b4-85ed-90ed7642e2f7",
-        "164602873867eb3815-4",
+        "164602873867eb3815-0",
         "164602873867eb3815-5",
         "164602873867eb3815-6",
         "164602873867eb3815-7"
